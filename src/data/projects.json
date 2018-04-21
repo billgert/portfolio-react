@@ -1,0 +1,34 @@
+[
+  {
+    "name": "",
+    "description": "",
+    "image": "",
+    "employer": "",
+    "role": "",
+    "responsibilities": "",
+    "type": {
+      "platform": "",
+      "tool": "",
+      "language": "",
+      "description": ""
+    },
+    "client": {
+      "name": "",
+      "website": "",
+      "logo": ""
+    },
+    "product": {
+      "name": "",
+      "description": "",
+      "website": "",
+      "logo": ""
+    },
+    "screenshots": [
+      {
+        "name": "",
+        "description": "",
+        "image": ""
+      }
+    ]
+  }
+]
