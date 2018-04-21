@@ -19,8 +19,8 @@ export default class Work extends React.Component {
         {this.state.projects.map(function(project, index) {
           return (
             <div key={index}>
-              <h1>{project.name}</h1>
-              <h2>{project.description}</h2>
+              <h1>{project.role}</h1>
+              <h2>{project.info}</h2>
             </div>
           )
         })}

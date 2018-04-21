@@ -1,10 +1,18 @@
 {
-  "name": "",
-  "description": "",
-  "photo": "",
-  "employer": {
-    "name": "",
-    "website": "",
-    "logo": ""
-  }
+  "description": "I'm a passionate mobile developer with love for Apple. Working at Hint to make way for an emerging industry we like to call think-tech.",
+  "email": "p.billgert@gmail.com",
+  "links": [
+    {
+      "url": "",
+      "logo": ""
+    },
+    {
+      "url": "",
+      "logo": ""
+    },
+    {
+      "url": "",
+      "logo": ""
+    }
+  ]
 }

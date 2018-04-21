@@ -1,17 +1,13 @@
 [
   {
-    "name": "",
-    "info": "",
-    "description": "",
-    "image": "",
+    "role": "iOS Developer",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
+    "employer": "",
+    "cover": "",
+    "platform": "",
+    "language": "",
     "started": "",
     "ended": "",
-    "type": {
-      "name": "",
-      "platform": "",
-      "tool": "",
-      "language": ""
-    },
     "client": {
       "name": "",
       "website": "",
@@ -26,9 +22,7 @@
     "team": [
       {
         "name": "",
-        "role": "",
-        "responsibilities": "",
-        "employer": ""
+        "role": ""
       }
     ],
     "images": [
