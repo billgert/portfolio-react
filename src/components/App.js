@@ -1,14 +1,11 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react'
+import Work from './Work'
+import './App.css'
 
-import projectsArray from '../data/projects.json'
-
-export default class App extends Component {
+export default class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <h3>online</h3>
-      </div>
-    );
+      <Work />
+    )
   }
 }
