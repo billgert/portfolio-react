@@ -2,13 +2,9 @@
   "name": "",
   "description": "",
   "photo": "",
-  "city": "",
-  "country": "",
-  "email": "",
-  "links": [
-    {
-      "name": "",
-      "url": ""
-    }
-  ]
+  "employer": {
+    "name": "",
+    "website": "",
+    "logo": ""
+  }
 }

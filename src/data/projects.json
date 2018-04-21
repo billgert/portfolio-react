@@ -4,9 +4,8 @@
     "info": "",
     "description": "",
     "image": "",
-    "employer": "",
-    "role": "",
-    "responsibilities": "",
+    "started": "",
+    "ended": "",
     "type": {
       "name": "",
       "platform": "",
@@ -24,11 +23,19 @@
       "website": "",
       "logo": ""
     },
-    "screenshots": [
+    "team": [
+      {
+        "name": "",
+        "role": "",
+        "responsibilities": "",
+        "employer": ""
+      }
+    ],
+    "images": [
       {
         "name": "",
         "description": "",
-        "image": ""
+        "url": ""
       }
     ]
   }
