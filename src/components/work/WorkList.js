@@ -1,7 +1,7 @@
 import React from 'react'
-import projectsJson from '../data/projects.json'
+import projectsJson from '../../data/projects.json'
 
-export default class Work extends React.Component {
+export default class WorkList extends React.Component {
   constructor() {
     super()
     this.state = {
