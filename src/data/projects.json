@@ -2,13 +2,13 @@
   {
     "role": "Head of Mobile",
     "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
-    "cover": "",
+    "cover": "http://gdurl.com/jtaR",
     "started": "",
     "ended": "",
     "company": {
       "name": "Hint AB",
       "website": "",
-      "logo": ""
+      "logo": "http://gdurl.com/K54R"
     },
     "product": {
       "name": "Hint",
@@ -31,7 +31,7 @@
         "role": ""
       }
     ],
-    "images": [
+    "pictures": [
       {
         "name": "",
         "description": "",
@@ -42,13 +42,13 @@
   {
     "role": "iOS Lead",
     "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
-    "cover": "",
+    "cover": "http://gdurl.com/jtaR",
     "started": "",
     "ended": "",
     "company": {
       "name": "Maitres AB",
       "website": "",
-      "logo": ""
+      "logo": "http://gdurl.com/K54R"
     },
     "product": {
       "name": "MAÎTRES",
@@ -71,7 +71,7 @@
         "role": ""
       }
     ],
-    "images": [
+    "pictures": [
       {
         "name": "",
         "description": "",
@@ -82,13 +82,13 @@
   {
     "role": "iOS Lead",
     "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
-    "cover": "",
+    "cover": "http://gdurl.com/jtaR",
     "started": "",
     "ended": "",
     "company": {
       "name": "Tuifly Nordic AB",
       "website": "",
-      "logo": ""
+      "logo": "http://gdurl.com/K54R"
     },
     "product": {
       "name": "Bamseklubben",
@@ -111,7 +111,7 @@
         "role": ""
       }
     ],
-    "images": [
+    "pictures": [
       {
         "name": "",
         "description": "",
@@ -122,13 +122,13 @@
   {
     "role": "iOS Developer",
     "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
-    "cover": "",
+    "cover": "http://gdurl.com/jtaR",
     "started": "",
     "ended": "",
     "company": {
       "name": "Bokus AB",
       "website": "",
-      "logo": ""
+      "logo": "http://gdurl.com/K54R"
     },
     "product": {
       "name": "Bokus Play",
@@ -151,7 +151,7 @@
         "role": ""
       }
     ],
-    "images": [
+    "pictures": [
       {
         "name": "",
         "description": "",
@@ -162,13 +162,13 @@
   {
     "role": "iOS Developer",
     "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
-    "cover": "",
+    "cover": "http://gdurl.com/jtaR",
     "started": "",
     "ended": "",
     "company": {
       "name": "Rebtel AB",
       "website": "",
-      "logo": ""
+      "logo": "http://gdurl.com/K54R"
     },
     "product": {
       "name": "Rebtel Activist",
@@ -191,7 +191,7 @@
         "role": ""
       }
     ],
-    "images": [
+    "pictures": [
       {
         "name": "",
         "description": "",

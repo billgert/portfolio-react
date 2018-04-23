@@ -1,11 +1,13 @@
 import React from 'react'
 import WorkList from './work/WorkList'
-import './App.css'
+import projects from '../data/projects.json'
 
-export default class App extends React.Component {
+class App extends React.Component {
   render() {
     return (
-      <WorkList />
+      <WorkList projects={projects}/>
     )
   }
 }
+
+export default App

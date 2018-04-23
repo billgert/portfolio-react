@@ -1,30 +1,18 @@
 import React from 'react'
-import projectsJson from '../../data/projects.json'
+import WorkElement from './WorkElement'
 
-export default class WorkList extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      "projects": []
-    }
-  }
-
-  componentDidMount() {
-    this.setState({"projects": projectsJson})
-  }
-
+class WorkList extends React.Component {
   render() {
     return (
-      <ul>
-        {this.state.projects.map(function(project, index) {
+      this.props.projects.map(
+        function(project, index) {
           return (
-            <div key={index}>
-              <h1>{project.role}</h1>
-              <h2>{project.info}</h2>
-            </div>
+            <WorkElement project={project} key={index}/>
           )
-        })}
-      </ul>
+        }
+      )
     )
   }
 }
+
+export default WorkList
