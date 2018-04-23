@@ -1,24 +1,190 @@
 [
   {
-    "role": "iOS Developer",
+    "role": "Head of Mobile",
     "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
-    "employer": "",
     "cover": "",
-    "platform": "",
-    "language": "",
     "started": "",
     "ended": "",
-    "client": {
-      "name": "",
+    "company": {
+      "name": "Hint AB",
       "website": "",
       "logo": ""
     },
     "product": {
-      "name": "",
+      "name": "Hint",
       "description": "",
       "website": "",
       "logo": ""
     },
+    "platforms": [
+      {
+        "name": "",
+        "ide": "",
+        "language": "",
+        "architectures": [],
+        "paradigms": []
+      }
+    ],
+    "team": [
+      {
+        "name": "",
+        "role": ""
+      }
+    ],
+    "images": [
+      {
+        "name": "",
+        "description": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "role": "iOS Lead",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
+    "cover": "",
+    "started": "",
+    "ended": "",
+    "company": {
+      "name": "Maitres AB",
+      "website": "",
+      "logo": ""
+    },
+    "product": {
+      "name": "MAÎTRES",
+      "description": "",
+      "website": "",
+      "logo": ""
+    },
+    "platforms": [
+      {
+        "name": "",
+        "ide": "",
+        "language": "",
+        "architectures": [],
+        "paradigms": []
+      }
+    ],
+    "team": [
+      {
+        "name": "",
+        "role": ""
+      }
+    ],
+    "images": [
+      {
+        "name": "",
+        "description": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "role": "iOS Lead",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
+    "cover": "",
+    "started": "",
+    "ended": "",
+    "company": {
+      "name": "Tuifly Nordic AB",
+      "website": "",
+      "logo": ""
+    },
+    "product": {
+      "name": "Bamseklubben",
+      "description": "",
+      "website": "",
+      "logo": ""
+    },
+    "platforms": [
+      {
+        "name": "",
+        "ide": "",
+        "language": "",
+        "architectures": [],
+        "paradigms": []
+      }
+    ],
+    "team": [
+      {
+        "name": "",
+        "role": ""
+      }
+    ],
+    "images": [
+      {
+        "name": "",
+        "description": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "role": "iOS Developer",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
+    "cover": "",
+    "started": "",
+    "ended": "",
+    "company": {
+      "name": "Bokus AB",
+      "website": "",
+      "logo": ""
+    },
+    "product": {
+      "name": "Bokus Play",
+      "description": "",
+      "website": "",
+      "logo": ""
+    },
+    "platforms": [
+      {
+        "name": "",
+        "ide": "",
+        "language": "",
+        "architectures": [],
+        "paradigms": []
+      }
+    ],
+    "team": [
+      {
+        "name": "",
+        "role": ""
+      }
+    ],
+    "images": [
+      {
+        "name": "",
+        "description": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "role": "iOS Developer",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
+    "cover": "",
+    "started": "",
+    "ended": "",
+    "company": {
+      "name": "Rebtel AB",
+      "website": "",
+      "logo": ""
+    },
+    "product": {
+      "name": "Rebtel Activist",
+      "description": "",
+      "website": "",
+      "logo": ""
+    },
+    "platforms": [
+      {
+        "name": "",
+        "ide": "",
+        "language": "",
+        "architectures": [],
+        "paradigms": []
+      }
+    ],
     "team": [
       {
         "name": "",
