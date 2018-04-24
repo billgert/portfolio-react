@@ -1,0 +1,30 @@
+.background img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  background-color: yellow;
+}
+
+.flexContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blue;
+}
+
+.logo img {
+  object-fit: scale-down;
+  width: auto;
+  height: auto;
+  background-color: yellow;
+}
+
+.title {
+  background-color: purple;
+  text-align: center;
+}
+
+.description {
+  background-color: green;
+  text-align: center;
+}

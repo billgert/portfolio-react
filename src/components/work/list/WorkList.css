@@ -1,0 +1,10 @@
+.flexListContainer {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+
+.flexElementContainer {
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
