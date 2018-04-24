@@ -1,7 +1,8 @@
 [
   {
+    "id": 0,
     "role": "Head of Mobile",
-    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
     "cover": "http://gdurl.com/jtaR",
     "started": "",
     "ended": "",
@@ -40,8 +41,9 @@
     ]
   },
   {
+    "id": 1,
     "role": "iOS Lead",
-    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
     "cover": "http://gdurl.com/jtaR",
     "started": "",
     "ended": "",
@@ -80,8 +82,9 @@
     ]
   },
   {
+    "id": 2,
     "role": "iOS Lead",
-    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
     "cover": "http://gdurl.com/jtaR",
     "started": "",
     "ended": "",
@@ -120,8 +123,9 @@
     ]
   },
   {
+    "id": 3,
     "role": "iOS Developer",
-    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
     "cover": "http://gdurl.com/jtaR",
     "started": "",
     "ended": "",
@@ -160,8 +164,9 @@
     ]
   },
   {
+    "id": 4,
     "role": "iOS Developer",
-    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
     "cover": "http://gdurl.com/jtaR",
     "started": "",
     "ended": "",
