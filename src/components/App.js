@@ -3,7 +3,7 @@ import WorkList from './work/list/WorkList'
 import projects from '../data/projects.json'
 import './App.css'
 
-class App extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <div className="background">
@@ -12,5 +12,3 @@ class App extends React.Component {
     )
   }
 }
-
-export default App

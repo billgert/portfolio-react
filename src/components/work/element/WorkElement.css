@@ -1,30 +1,43 @@
-.background img {
-  object-fit: cover;
-  width: 100%;
-  height: auto;
-  background-color: yellow;
-}
-
-.flexContent {
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: blue;
+  margin: auto;
+  padding-top: 110px;
+  padding-bottom: 110px;
 }
 
 .logo img {
-  object-fit: scale-down;
   width: auto;
   height: auto;
-  background-color: yellow;
 }
 
 .title {
-  background-color: purple;
+  color: white;
   text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .description {
-  background-color: green;
+  color: white;
   text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+@media (min-width: 701px) {
+  .description {
+    width: 45%;
+  }
+}
+
+@media (max-width: 700px) {
+  .description {
+    width: 85%;
+  }
 }

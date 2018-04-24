@@ -2,11 +2,11 @@ import React from 'react'
 import WorkElement from '../element/WorkElement'
 import './WorkList.css';
 
-class WorkList extends React.Component {
+export default class WorkList extends React.Component {
   render() {
     const projects = this.props.projects
     return (
-      <div className="flexListContainer">
+      <div className="container">
         <Elements projects={projects}/>
       </div>
     )
@@ -15,11 +15,6 @@ class WorkList extends React.Component {
 
 function Elements(props) {
   return props.projects.map((project) => {
-    return <div key={project.id} className="flexElementContainer">
-      <WorkElement key={project.id} project={project}/>
-    </div>
-
+    return <WorkElement key={project.id} project={project}/>
   })
 }
-
-export default WorkList

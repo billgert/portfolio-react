@@ -1,23 +1,26 @@
 import React from 'react'
 import './WorkElement.css';
 
-class WorkElement extends React.Component {
+export default class WorkElement extends React.Component {
   render() {
     const project = this.props.project
+    var backgroundStyle = {
+      display: 'flex',
+      margin: '0px',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundImage: 'linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(' + project.cover + ')'
+    };
     return (
-      <div className="flexContent">
-        <Logo company={project.company}/>
-        <Role text={project.role}/>
-        <Description text={project.description}/>
+      <div style={backgroundStyle}>
+        <div className="content">
+          <Logo company={project.company}/>
+          <Role text={project.role}/>
+          <Description text={project.description}/>
+        </div>
       </div>
     )
   }
-}
-
-function Background(props) {
-  return <div className="background">
-    <img src={props.cover} alt=""/>
-  </div>
 }
 
 function Logo(props) {
@@ -27,15 +30,9 @@ function Logo(props) {
 }
 
 function Role(props) {
-  return <div className="title">
-     <h1>{props.text}</h1>
-  </div>
+  return <div className="title">{props.text}</div>
 }
 
 function Description(props) {
-  return <div className="description">
-     <h2>{props.text}</h2>
-  </div>
+  return <div className="description">{props.text}</div>
 }
-
-export default WorkElement
