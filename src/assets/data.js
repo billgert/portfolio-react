@@ -14,7 +14,7 @@ export const projects = [
     product: {
       name: "Hint",
       description: "",
-      website: "",
+      website: "https://www.gethint.se/",
       logo: ""
     },
     platforms: [
@@ -55,7 +55,7 @@ export const projects = [
     product: {
       name: "MAÎTRES",
       description: "",
-      website: "",
+      website: "https://www.maitres.com/",
       logo: ""
     },
     platforms: [
@@ -96,7 +96,7 @@ export const projects = [
     product: {
       name: "Bamseklubben",
       description: "",
-      website: "",
+      website: "https://www.tui.se/bamse/",
       logo: ""
     },
     platforms: [
@@ -137,7 +137,7 @@ export const projects = [
     product: {
       name: "Bokus Play",
       description: "",
-      website: "",
+      website: "https://www.bokus.com/play",
       logo: ""
     },
     platforms: [
@@ -178,7 +178,7 @@ export const projects = [
     product: {
       name: "Rebtel Activist",
       description: "",
-      website: "",
+      website: "https://www.rebtel.com/en/partners/activist/",
       logo: ""
     },
     platforms: [

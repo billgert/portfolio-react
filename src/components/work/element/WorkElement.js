@@ -6,7 +6,7 @@ export default class WorkElement extends React.Component {
   render() {
     const project = this.props.project
     return (
-      <div style={backgroundStyle(project)}>
+      <div style={BackgroundStyle(project)} onClick={this.props.onClick}>
         <ReactHoverObserver className="content">
           <Logo url={project.company.logo}/>
           <Role text={project.role}/>
@@ -17,7 +17,7 @@ export default class WorkElement extends React.Component {
   }
 }
 
-function backgroundStyle(project) {
+function BackgroundStyle(project) {
   return {
     display: 'flex',
     margin: '0px',
