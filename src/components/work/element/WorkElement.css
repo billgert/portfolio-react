@@ -7,6 +7,10 @@
   padding-bottom: 110px;
 }
 
+.content:hover {
+  background-color: rgba(0,0,0,0.25);
+}
+
 .logo img {
   width: auto;
   height: 36px;

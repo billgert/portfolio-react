@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactHoverObserver from 'react-hover-observer';
 import './WorkElement.css';
 
 export default class WorkElement extends React.Component {
@@ -6,11 +7,11 @@ export default class WorkElement extends React.Component {
     const project = this.props.project
     return (
       <div style={backgroundStyle(project)}>
-        <div className="content">
+        <ReactHoverObserver className="content">
           <Logo url={project.company.logo}/>
           <Role text={project.role}/>
           <Description text={project.description}/>
-        </div>
+        </ReactHoverObserver>
       </div>
     )
   }
@@ -22,7 +23,7 @@ function backgroundStyle(project) {
     margin: '0px',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
-    backgroundImage: 'linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(' + project.cover + ')'
+    backgroundImage: 'linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url(' + project.cover + ')'
   }
 }
 
