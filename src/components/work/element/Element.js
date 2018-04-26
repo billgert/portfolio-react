@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactHoverObserver from 'react-hover-observer';
-import './WorkElement.css';
+import './Element.css';
 
-export default class WorkElement extends React.Component {
+export default class Element extends React.Component {
   render() {
     const project = this.props.project
     return (
@@ -23,7 +23,7 @@ function BackgroundStyle(project) {
     margin: '0px',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
-    backgroundImage: 'linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url(' + project.cover + ')'
+    backgroundImage: 'url(' + project.cover + ')'
   }
 }
 

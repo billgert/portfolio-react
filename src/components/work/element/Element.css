@@ -5,10 +5,11 @@
   margin: auto;
   padding-top: 110px;
   padding-bottom: 110px;
+  background-color: rgba(0,0,0,0.2);
 }
 
 .content:hover {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.1);
 }
 
 .logo img {
