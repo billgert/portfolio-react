@@ -1,0 +1,6 @@
+.horizontalContainer {
+   display: flex;
+   flex-direction: row;
+   width: 160px;
+   justify-content: space-between;
+}

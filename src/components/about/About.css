@@ -1,0 +1,30 @@
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.aboutDescription {
+  font-family: AvenirNext-Regular;
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 35px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 701px) {
+  .aboutDescription {
+    width: 55%;
+  }
+}
+
+@media (max-width: 700px) {
+  .aboutDescription {
+    width: 85%;
+  }
+}

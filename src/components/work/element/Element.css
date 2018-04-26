@@ -1,4 +1,4 @@
-.content {
+.elementContent {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,7 @@
   background-color: rgba(0,0,0,0.2);
 }
 
-.content:hover {
+.elementContent:hover {
   background-color: rgba(0,0,0,0.1);
 }
 
@@ -29,7 +29,7 @@
   padding-right: 15px;
 }
 
-.description {
+.elementDescription {
   font-family: AvenirNext-Regular;
   font-size: 16px;
   color: #FFFFFF;
@@ -39,13 +39,13 @@
 }
 
 @media (min-width: 701px) {
-  .description {
+  .elementDescription {
     width: 60%;
   }
 }
 
 @media (max-width: 700px) {
-  .description {
+  .elementDescription {
     width: 85%;
   }
 }

@@ -7,7 +7,7 @@ export default class Element extends React.Component {
     const project = this.props.project
     return (
       <div style={BackgroundStyle(project)} onClick={this.props.onClick}>
-        <ReactHoverObserver className="content">
+        <ReactHoverObserver className="elementContent">
           <Logo url={project.company.logo}/>
           <Role text={project.role}/>
           <Description text={project.description}/>
@@ -34,9 +34,13 @@ function Logo(props) {
 }
 
 function Role(props) {
-  return <div className="title">{props.text}</div>
+  return <div className="title">
+    {props.text}
+  </div>
 }
 
 function Description(props) {
-  return <div className="description">{props.text}</div>
+  return <div className="elementDescription">
+    {props.text}
+  </div>
 }
