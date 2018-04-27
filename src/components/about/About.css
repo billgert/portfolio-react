@@ -6,6 +6,8 @@
   padding-top: 110px;
   padding-bottom: 110px;
   background: #2C2C2C;
+  background-image: url('../../assets/patterns/about.png');
+  background-repeat: repeat;
 }
 
 .aboutDescription {
