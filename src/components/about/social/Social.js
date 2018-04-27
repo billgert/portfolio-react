@@ -18,6 +18,6 @@ export default class Social extends React.Component {
 
 function Buttons(props) {
   return props.links.map((link, index) => {
-    return <img key={index} src={link.logo} alt="" onClick={(e) => props.handleClick(link, e)}/>
+    return <img className="linkButton" key={index} src={link.logo} alt="" onClick={(e) => props.handleClick(link, e)}/>
   })
 }

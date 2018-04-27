@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactHoverObserver from 'react-hover-observer';
 import './Element.css';
 
 export default class Element extends React.Component {
@@ -7,11 +6,11 @@ export default class Element extends React.Component {
     const project = this.props.project
     return (
       <div style={BackgroundStyle(project)} onClick={this.props.onClick}>
-        <ReactHoverObserver className="elementContent">
+        <div className="elementContent">
           <Logo url={project.company.logo}/>
           <Role text={project.role}/>
           <Description text={project.description}/>
-        </ReactHoverObserver>
+        </div>
       </div>
     )
   }
