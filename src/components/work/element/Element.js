@@ -19,7 +19,7 @@ export default class Element extends React.Component {
 function BackgroundStyle(project) {
   return {
     display: 'flex',
-    margin: '0px',
+    backgroundColor: 'black',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     backgroundImage: 'url(' + project.cover + ')'
