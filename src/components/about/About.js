@@ -2,7 +2,7 @@ import React from 'react'
 import Social from './social/Social'
 import './About.css'
 
-export default class App extends React.Component {
+export default class About extends React.Component {
   render() {
     const profile = this.props.profile
     return (
