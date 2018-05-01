@@ -19,7 +19,6 @@ export default class Element extends React.Component {
 function BackgroundStyle(project) {
   return {
     display: 'flex',
-    backgroundColor: 'black',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     backgroundImage: 'url(' + project.cover + ')'

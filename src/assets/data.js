@@ -3,7 +3,7 @@ import React from 'react'
 export const projects = [
   {
     id: 0,
-    role: "Head of Mobile",
+    role: "Mobile Lead",
     description: "",
     cover: require('./projects/hint/cover.jpg'),
     started: "",
