@@ -19,7 +19,8 @@
   height: 70px;
   color: white;
   font-size: 20px;
-  font-family: AvenirNext-Bold;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   opacity: 1.0;
   filter: alpha(opacity=100); /* For IE8 and earlier */
 }
