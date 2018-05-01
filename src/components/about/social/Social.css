@@ -1,16 +1,18 @@
 .horizontalContainer {
-   display: flex;
-   flex-direction: row;
-   width: 160px;
-   justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  width: 170px;
+  justify-content: space-between;
 }
 
 .linkButton {
-    opacity: 1.0;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
+  height: 36px;
+  width: auto;
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .linkButton:hover {
-    opacity: 0.7;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+  opacity: 0.7;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
 }
