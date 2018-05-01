@@ -11,6 +11,7 @@ export default class App extends React.Component {
       <div className="background">
         <List projects={data.projects}/>
         <About profile={data.profile}/>
+        <Contact email={data.email}/>
       </div>
     )
   }

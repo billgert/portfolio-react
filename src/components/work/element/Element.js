@@ -1,5 +1,5 @@
 import React from 'react'
-import './Element.css';
+import './Element.css'
 
 export default class Element extends React.Component {
   render() {
