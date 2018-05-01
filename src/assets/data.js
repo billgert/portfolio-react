@@ -126,7 +126,7 @@ export const projects = [
   },
   {
     id: 3,
-    role: "iOS Lead",
+    role: "Mobile Lead",
     description: "",
     cover: require('./projects/tui/cover.jpg'),
     started: "",
