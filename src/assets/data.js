@@ -4,7 +4,7 @@ export const projects = [
   {
     id: 0,
     role: "Head of Mobile",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat tincidunt nibh quis vestibulum. Nam commodo quam mi, sed interdum dui tincidunt nec. Vestibulum odio ligula, imperdiet sit.",
+    description: " df pkdsf dsf ljslkf jkf es fdskf nklfj dksljf ljfdkjf dlkj flkdsjfdlskf s",
     cover: require('./projects/hint/cover.jpg'),
     started: "",
     ended: "",
