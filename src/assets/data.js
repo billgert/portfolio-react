@@ -1,3 +1,5 @@
+import React from 'react'
+
 export const projects = [
   {
     id: 0,
@@ -207,7 +209,7 @@ export const projects = [
 ]
 
 export const profile = {
-  "description": "I'm a passionate mobile developer with love for Apple. Working at Hint to make way for an emerging industry we like to call think-tech.",
+  "description_div": <div>I'm a passionate mobile developer with love for Apple. Working at {<a href="https://www.gethint.se/">Hint</a>} to make way for an emerging industry we like to call think-tech.</div>,
   "links": [
     {
       "url": "https://stackoverflow.com/users/1970148/billgert",

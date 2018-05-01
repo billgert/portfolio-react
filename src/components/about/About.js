@@ -7,7 +7,7 @@ export default class App extends React.Component {
     const profile = this.props.profile
     return (
       <div className="aboutContent">
-        <Description text={profile.description}/>
+        <Description text={profile.description_div}/>
         <Social links={profile.links}/>
       </div>
     )
