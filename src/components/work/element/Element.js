@@ -1,17 +1,16 @@
 import React from 'react'
-import ReactHoverObserver from 'react-hover-observer';
-import './WorkElement.css';
+import './Element.css';
 
-export default class WorkElement extends React.Component {
+export default class Element extends React.Component {
   render() {
     const project = this.props.project
     return (
       <div style={BackgroundStyle(project)} onClick={this.props.onClick}>
-        <ReactHoverObserver className="content">
+        <div className="elementContent">
           <Logo url={project.company.logo}/>
           <Role text={project.role}/>
           <Description text={project.description}/>
-        </ReactHoverObserver>
+        </div>
       </div>
     )
   }
@@ -23,7 +22,7 @@ function BackgroundStyle(project) {
     margin: '0px',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
-    backgroundImage: 'linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url(' + project.cover + ')'
+    backgroundImage: 'url(' + project.cover + ')'
   }
 }
 
@@ -34,9 +33,13 @@ function Logo(props) {
 }
 
 function Role(props) {
-  return <div className="title">{props.text}</div>
+  return <div className="title">
+    {props.text}
+  </div>
 }
 
 function Description(props) {
-  return <div className="description">{props.text}</div>
+  return <div className="elementDescription">
+    {props.text}
+  </div>
 }

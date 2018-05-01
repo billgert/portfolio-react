@@ -1,8 +1,8 @@
 import React from 'react'
-import WorkElement from '../element/WorkElement'
-import './WorkList.css';
+import Element from '../element/Element'
+import './List.css';
 
-export default class WorkList extends React.Component {
+export default class List extends React.Component {
   render() {
     const projects = this.props.projects
     return (
@@ -19,6 +19,6 @@ export default class WorkList extends React.Component {
 
 function Elements(props) {
   return props.projects.map((project) => {
-    return <WorkElement key={project.id} project={project} onClick={(e) => props.handleClick(project, e)}/>
+    return <Element key={project.id} project={project} onClick={(e) => props.handleClick(project, e)}/>
   })
 }

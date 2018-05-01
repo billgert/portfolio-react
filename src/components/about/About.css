@@ -1,0 +1,62 @@
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  background: #2C2C2C;
+  background-image: url('../../assets/patterns/about.png');
+  background-repeat: repeat;
+}
+
+.aboutDescription {
+  font-family: AvenirNext-Regular;
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 35px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 751px) {
+  .aboutDescription {
+    width: 50%;
+  }
+}
+
+@media (max-width: 750px) {
+  .aboutDescription {
+    width: 75%;
+  }
+}
+
+a:link {
+  font-family: AvenirNext-Bold;
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  font-family: AvenirNext-Bold;
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  font-family: AvenirNext-Bold;
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: underline;
+  opacity: 0.7;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+a:active {
+  font-family: AvenirNext-Bold;
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: underline;
+}
