@@ -126,7 +126,7 @@ export const projects = [
   },
   {
     id: 3,
-    role: "Mobile Lead",
+    role: "Mobile Developer",
     description: "Bamseklubben is a game starring the Swedish cartoon character Bamse. Developed cross-platform for the Nordics with over 10.000 kids playing in the first weeks.",
     cover: require('./projects/tui/cover.jpg'),
     started: "",
@@ -168,7 +168,7 @@ export const projects = [
   {
     id: 4,
     role: "iOS Developer",
-    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist's can sign up new customers directly in the app.",
+    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
     cover: require('./projects/rebtel/cover.jpg'),
     started: "",
     ended: "",
