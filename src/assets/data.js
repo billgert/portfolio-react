@@ -4,7 +4,7 @@ export const projects = [
   {
     id: 0,
     role: "Mobile Lead",
-    description: "",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     cover: require('./projects/hint/cover.jpg'),
     started: "",
     ended: "",
@@ -45,7 +45,7 @@ export const projects = [
   {
     id: 1,
     role: "iOS Developer",
-    description: "",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     cover: require('./projects/bokus/cover.jpg'),
     started: "",
     ended: "",
@@ -86,7 +86,7 @@ export const projects = [
   {
     id: 2,
     role: "iOS Lead",
-    description: "",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     cover: require('./projects/maitres/cover.jpg'),
     started: "",
     ended: "",
@@ -127,7 +127,7 @@ export const projects = [
   {
     id: 3,
     role: "Mobile Lead",
-    description: "",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     cover: require('./projects/tui/cover.jpg'),
     started: "",
     ended: "",
@@ -168,7 +168,7 @@ export const projects = [
   {
     id: 4,
     role: "iOS Developer",
-    description: "",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     cover: require('./projects/rebtel/cover.jpg'),
     started: "",
     ended: "",
