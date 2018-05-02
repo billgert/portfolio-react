@@ -7,7 +7,7 @@ export default class App extends React.Component {
   render() {
     const data = require('../assets/data.js')
     return (
-      <div className="background">
+      <div>
         <List projects={data.projects}/>
         <About profile={data.profile}/>
         <Contact email={data.email}/>
