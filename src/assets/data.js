@@ -168,7 +168,7 @@ export const projects = [
   {
     id: 4,
     role: "iOS Developer",
-    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist's can sign up new customers directly in the app.",
+    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
     cover: require('./projects/rebtel/cover.jpg'),
     started: "",
     ended: "",
