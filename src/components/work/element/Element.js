@@ -7,7 +7,7 @@ export default class Element extends React.Component {
     return (
       <div style={BackgroundStyle(project.cover)} onClick={this.props.onClick}>
         <div className="elementContent">
-          <Logo url={project.company.logo}/>
+          <Logo url={project.product.logo}/>
           <Role text={project.role}/>
           <Description text={project.description}/>
         </div>
