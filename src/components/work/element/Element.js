@@ -9,7 +9,7 @@ export default class Element extends React.Component {
         <div className="elementContent">
           <Logo url={project.product.logo}/>
           <Role text={project.role}/>
-          <Description text={project.description}/>
+          <Description text={project.description_div}/>
         </div>
       </div>
     )

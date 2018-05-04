@@ -5,7 +5,7 @@ export const projects = [
     id: 0,
     active: true,
     role: "Mobile Lead",
-    description: "Working on a new service called Hint that soon will live in your pocket. As one of the first developers I'm excited to work with great people to create something we truly believe in.",
+    description_div: <div>Working on a new service called Hint that soon will live in your pocket. As one of the first developers I'm excited to work with great people to create something we truly believe in.</div>,
     cover: require('./projects/hint/cover.jpg'),
     employer: {
       name: "Hint AB",
@@ -32,7 +32,7 @@ export const projects = [
     id: 1,
     active: false,
     role: "iOS Developer",
-    description: "Bokus has entered the booming industry of audiobooks with a brand new app. Mainly responsible for the player and the explore section. Made with BBH Stockholm as employer.",
+    description_div: <div>Bokus has entered the booming industry of audiobooks with a brand new app. Mainly responsible for the player and the explore section. Made for {<a href="http://bbhstockholm.se/">BBH Stockholm</a>}.</div>,
     cover: require('./projects/bokus/cover.jpg'),
     employer: {
       name: "BBH Stockholm",
@@ -68,7 +68,7 @@ export const projects = [
     id: 2,
     active: false,
     role: "iOS Lead",
-    description: "As I have experience working in the restaurant-business this project was extra fun. MAÎTRES lets you connect with restaurants to book, pay and rate without having to wait for the bill. Made with BBH Stockholm as employer.",
+    description_div: <div>As I have experience working in the restaurant-business this project was extra fun. MAÎTRES lets you connect with restaurants to book, pay and rate without having to wait for the bill. Made for {<a href="http://bbhstockholm.se/">BBH Stockholm</a>}.</div>,
     cover: require('./projects/maitres/cover.jpg'),
     employer: {
       name: "BBH Stockholm",
@@ -100,7 +100,7 @@ export const projects = [
     id: 3,
     active: false,
     role: "Mobile Developer",
-    description: "Bamseklubben is a game starring the Swedish cartoon character Bamse. Developed cross-platform for the Nordics with over 10.000 kids playing in the first weeks. Made with BBH Stockholm as employer.",
+    description_div: <div>Bamseklubben is a game starring the Swedish cartoon character Bamse. Developed cross-platform for the Nordics with over 10.000 kids playing in the first weeks. Made for {<a href="http://bbhstockholm.se/">BBH Stockholm</a>}.</div>,
     cover: require('./projects/tui/cover.jpg'),
     employer: {
       name: "BBH Stockholm",
@@ -145,7 +145,7 @@ export const projects = [
     id: 4,
     active: false,
     role: "iOS Developer",
-    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app. Made with BBH Stockholm as employer.",
+    description_div: <div>The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app. Made for {<a href="http://bbhstockholm.se/">BBH Stockholm</a>}.</div>,
     cover: require('./projects/rebtel/cover.jpg'),
     employer: {
       name: "BBH Stockholm",
@@ -176,8 +176,8 @@ export const projects = [
 ]
 
 export const profile = {
-  "description_div": <div>I'm a passionate mobile developer with love for Apple. Working at {<a href="https://www.gethint.se/">Hint</a>} to make way for an emerging industry we like to call think-tech.</div>,
-  "links": [
+  description_div: <div>I'm a passionate mobile developer with love for Apple. Working at {<a href="https://www.gethint.se/">Hint</a>} to make way for an emerging industry we like to call think-tech.</div>,
+  links: [
     {
       "url": "https://stackoverflow.com/users/1970148/billgert",
       "logo": require('./links/stackoverflow.png')
