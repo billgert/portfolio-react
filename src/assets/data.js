@@ -7,8 +7,9 @@ export const projects = [
     role: "Mobile Lead",
     description: "Working on a new service called Hint that soon will live in your pocket. As one of the first developers I'm excited to work with great people to create something we truly believe in.",
     cover: require('./projects/hint/cover.jpg'),
-    company: {
+    employer: {
       name: "Hint AB",
+      "website": "https://www.gethint.se/",
       logo: require('./projects/hint/logo.png')
     },
     product: {
@@ -31,17 +32,18 @@ export const projects = [
     id: 1,
     active: false,
     role: "iOS Developer",
-    description: "Bokus has entered the booming industry of audiobooks with a brand new app. Mainly responsible for the player and the explore section.",
+    description: "Bokus has entered the booming industry of audiobooks with a brand new app. Mainly responsible for the player and the explore section. Made with BBH Stockholm as employer.",
     cover: require('./projects/bokus/cover.jpg'),
-    company: {
-      name: "Bokus AB",
-      logo: require('./projects/bokus/logo.png')
+    employer: {
+      name: "BBH Stockholm",
+      website: "http://bbhstockholm.se/",
+      logo: ""
     },
     product: {
       name: "Bokus Play",
       description: "",
       website: "https://www.bokus.com/play",
-      logo: ""
+      logo: require('./projects/bokus/logo.png')
     },
     platforms: [
       {
@@ -66,11 +68,12 @@ export const projects = [
     id: 2,
     active: false,
     role: "iOS Lead",
-    description: "As I have experience working in the restaurant-business this project was extra fun. MAÎTRES lets you connect with restaurants to book, pay and rate without having to wait for the bill.",
+    description: "As I have experience working in the restaurant-business this project was extra fun. MAÎTRES lets you connect with restaurants to book, pay and rate without having to wait for the bill. Made with BBH Stockholm as employer.",
     cover: require('./projects/maitres/cover.jpg'),
-    company: {
-      name: "Maitres AB",
-      logo: require('./projects/maitres/logo.png')
+    employer: {
+      name: "BBH Stockholm",
+      website: "http://bbhstockholm.se/",
+      logo: ""
     },
     product: {
       name: "MAÎTRES",
@@ -97,17 +100,18 @@ export const projects = [
     id: 3,
     active: false,
     role: "Mobile Developer",
-    description: "Bamseklubben is a game starring the Swedish cartoon character Bamse. Developed cross-platform for the Nordics with over 10.000 kids playing in the first weeks.",
+    description: "Bamseklubben is a game starring the Swedish cartoon character Bamse. Developed cross-platform for the Nordics with over 10.000 kids playing in the first weeks. Made with BBH Stockholm as employer.",
     cover: require('./projects/tui/cover.jpg'),
-    company: {
-      name: "Tuifly Nordic AB",
-      logo: require('./projects/tui/logo.png')
+    employer: {
+      name: "BBH Stockholm",
+      website: "http://bbhstockholm.se/",
+      logo: ""
     },
     product: {
       name: "Bamseklubben",
       description: "",
       website: "https://www.tui.se/bamse/",
-      logo: ""
+      logo: require('./projects/tui/logo.png')
     },
     platforms: [
       {
@@ -141,17 +145,18 @@ export const projects = [
     id: 4,
     active: false,
     role: "iOS Developer",
-    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
+    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app. Made with BBH Stockholm as employer.",
     cover: require('./projects/rebtel/cover.jpg'),
-    company: {
-      name: "Rebtel AB",
-      logo: require('./projects/rebtel/logo.png')
+    employer: {
+      name: "BBH Stockholm",
+      website: "http://bbhstockholm.se/",
+      logo: ""
     },
     product: {
       name: "Rebtel Activist",
       description: "",
       website: "https://www.rebtel.com/en/partners/activist/",
-      logo: ""
+      logo: require('./projects/rebtel/logo.png')
     },
     platforms: [
       {
