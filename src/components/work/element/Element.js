@@ -1,5 +1,6 @@
 import React from 'react'
 import './Element.css'
+import '../../App.css'
 
 export default class Element extends React.Component {
   render() {
