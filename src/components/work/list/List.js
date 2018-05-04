@@ -12,8 +12,10 @@ export default class List extends React.Component {
     )
   }
 
-  handleClick = (project) => {
-    window.open(project.product.website)
+  handleClick = (project, element) => {
+    if (element.target.className === "elementContent") {
+      window.open(project.product.website)
+    }
   }
 }
 
