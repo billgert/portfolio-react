@@ -6,18 +6,14 @@ export default class Social extends React.Component {
     const links = this.props.links
     return (
       <div className="horizontalContainer">
-        <Buttons links={links} handleClick={this.handleClick}/>
+        <Buttons links={links}/>
       </div>
     )
-  }
-
-  handleClick = (link) => {
-    window.open(link.url)
   }
 }
 
 function Buttons(props) {
   return props.links.map((link, index) => {
-    return <img className="linkButton" key={index} src={link.logo} alt="" onClick={(e) => props.handleClick(link, e)}/>
+    return <a href={link.url}><img className="linkButton" key={index} src={link.logo} alt=""/></a>
   })
 }
