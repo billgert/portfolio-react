@@ -172,6 +172,70 @@ export const projects = [
       }
     ],
     pictures: null
+  },
+  {
+    id: 5,
+    active: false,
+    role: "Freelancer",
+    description_div:  <div>I helped define, design and develop a prototype app for Dashl in their early stages. Their network of stylists is now the go-to-place for beauty treatments in Stockholm.</div>,
+    cover: require('./projects/dashl/cover.jpg'),
+    employer: {
+      name: "Dashl AB",
+      website: "https://dashl.se/",
+      logo: ""
+    },
+    product: {
+      name: "Dashl",
+      description: "",
+      website: "https://dashl.se/",
+      logo: require('./projects/dashl/logo.png')
+    },
+    platforms: [
+      {
+        name: "iOS",
+        ide: "Xcode",
+        language: "Swift"
+      }
+    ],
+    team: [
+      {
+        name: "Adam Lindfors",
+        role: "Designer"
+      }
+    ],
+    pictures: null
+  },
+  {
+    id: 6,
+    active: false,
+    role: "iOS Developer",
+    description_div: <div>Each person is one song and together they become a playlist. OneSong aimed to be the daily soundtrack of you and your social network. Think of it like Spotify and Instagram having a baby. Made for {<a href="http://www.frontcell.se/">Frontcell</a>}.</div>,
+    cover: require('./projects/onesong/cover.jpg'),
+    employer: {
+      name: "Frontcell AB",
+      website: "http://www.frontcell.se/",
+      logo: ""
+    },
+    product: {
+      name: "OneSong",
+      description: "",
+      website: "https://hypebeast.com/2015/6/onesong-music-sharing-app-combines-best-of-instagram-and-spotify",
+      logo: require('./projects/onesong/logo.png')
+    },
+    platforms: [
+      {
+        name: "iOS",
+        ide: "Xcode",
+        language: "Objective-C"
+      }
+    ],
+    team: [
+      {
+        name: "Oscar Kockum",
+        role: "iOS Lead"
+      }
+    ],
+    pictures: null
   }
 ]
 
