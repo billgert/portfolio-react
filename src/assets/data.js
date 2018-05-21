@@ -144,6 +144,38 @@ export const projects = [
   {
     id: 4,
     active: false,
+    role: "iOS Lead",
+    description_div:  <div>I helped define, design and develop a prototype app for Dashl in their early stages. Their network of stylists is now the go-to-place for beauty treatments in Stockholm.</div>,
+    cover: require('./projects/dashl/cover.jpg'),
+    employer: {
+      name: "Dashl AB",
+      website: "https://dashl.se/",
+      logo: ""
+    },
+    product: {
+      name: "Dashl",
+      description: "",
+      website: "https://dashl.se/",
+      logo: require('./projects/dashl/logo.png')
+    },
+    platforms: [
+      {
+        name: "iOS",
+        ide: "Xcode",
+        language: "Swift"
+      }
+    ],
+    team: [
+      {
+        name: "Adam Lindfors",
+        role: "Designer"
+      }
+    ],
+    pictures: null
+  },
+  {
+    id: 5,
+    active: false,
     role: "iOS Developer",
     description_div: <div>The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app. Made for {<a href="http://bbhstockholm.se/">BBH Stockholm</a>}.</div>,
     cover: require('./projects/rebtel/cover.jpg'),
@@ -169,38 +201,6 @@ export const projects = [
       {
         name: "Anders Frank",
         role: "iOS Lead"
-      }
-    ],
-    pictures: null
-  },
-  {
-    id: 5,
-    active: false,
-    role: "Freelancer",
-    description_div:  <div>I helped define, design and develop a prototype app for Dashl in their early stages. Their network of stylists is now the go-to-place for beauty treatments in Stockholm.</div>,
-    cover: require('./projects/dashl/cover.jpg'),
-    employer: {
-      name: "Dashl AB",
-      website: "https://dashl.se/",
-      logo: ""
-    },
-    product: {
-      name: "Dashl",
-      description: "",
-      website: "https://dashl.se/",
-      logo: require('./projects/dashl/logo.png')
-    },
-    platforms: [
-      {
-        name: "iOS",
-        ide: "Xcode",
-        language: "Swift"
-      }
-    ],
-    team: [
-      {
-        name: "Adam Lindfors",
-        role: "Designer"
       }
     ],
     pictures: null
