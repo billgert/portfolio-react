@@ -5,7 +5,7 @@ export const projects = [
     id: 0,
     active: true,
     role: "Mobile Lead",
-    description_div: <div>Working on a new service called Hint that soon will live in your pocket. As one of the first developers I'm excited to work with great people to create something we truly believe in.</div>,
+    description_div: <div>Working on a new service called Hint that soon will be launched in beta. As one of the first developers I'm excited to work with likeminded people to create something truly awesome.</div>,
     cover: require('./projects/hint/cover.jpg'),
     employer: {
       name: "Hint AB",
@@ -240,7 +240,7 @@ export const projects = [
 ]
 
 export const profile = {
-  description_div: <div>I'm a passionate mobile developer with love for Apple. Working at {<a href="https://www.gethint.se/">Hint</a>} to make way for an emerging industry we like to call think-tech. Need help with iOS-development before summer-vacation? Give me a shout!</div>,
+  description_div: <div>I'm a passionate mobile developer with love for Apple. Working at {<a href="https://www.gethint.se/">Hint</a>} to make way for an emerging industry we like to call think-tech.</div>,
   links: [
     {
       "url": "https://stackoverflow.com/users/1970148/billgert",
