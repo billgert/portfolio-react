@@ -32,7 +32,7 @@ export const projects = [
     id: 1,
     active: false,
     role: "iOS Developer",
-    description_div: <div>Bokus has entered the booming industry of audiobooks with a brand new app. Mainly responsible for the player and the explore section. Made for {<a href="http://bbhstockholm.se/">BBH Stockholm</a>}.</div>,
+    description_div: <div>Bokus has entered the booming industry of audiobooks with a brand new app. Mainly responsible for implementing the design and user experience in the first version. Made for {<a href="http://bbhstockholm.se/">BBH Stockholm</a>}.</div>,
     cover: require('./projects/bokus/cover.jpg'),
     employer: {
       name: "BBH Stockholm",
