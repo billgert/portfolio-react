@@ -6,6 +6,7 @@
     "npm": "^6.4.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-ga": "^2.5.3",
     "react-hover-observer": "^2.1.0",
     "react-scripts": "1.1.4",
     "webfontloader": "^1.6.28"
