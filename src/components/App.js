@@ -17,7 +17,5 @@ export default class App extends React.Component {
   }
 }
 
-function initializeReactGA() {
-    ReactGA.initialize('UA-46400607-2')
-    ReactGA.pageview('/start')
-}
+ReactGA.initialize('UA-46400607-2')
+ReactGA.pageview('/start')
