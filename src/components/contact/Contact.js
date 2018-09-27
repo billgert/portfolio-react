@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactGA from 'react-ga'
 import './Contact.css'
 
 export default class Contact extends React.Component {
@@ -11,6 +12,11 @@ export default class Contact extends React.Component {
   }
 
   handleClick = () => {
+    ReactGA.event({
+      category: 'Contact',
+      action: 'Send Email'
+    })
+
     window.location.href = "mailto:" + this.props.email
   }
 }

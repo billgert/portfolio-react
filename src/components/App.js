@@ -2,6 +2,7 @@ import React from 'react'
 import List from './work/list/List'
 import About from './about/About'
 import Contact from './contact/Contact'
+import ReactGA from 'react-ga'
 
 export default class App extends React.Component {
   render() {
@@ -14,4 +15,9 @@ export default class App extends React.Component {
       </div>
     )
   }
+}
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-46400607-2')
+    ReactGA.pageview('/start')
 }
