@@ -1,5 +1,6 @@
 import React from 'react'
 import Element from '../element/Element'
+import ReactGA from 'react-ga'
 import './List.css';
 
 export default class List extends React.Component {
@@ -13,6 +14,11 @@ export default class List extends React.Component {
   }
 
   handleClick = (project, element) => {
+    ReactGA.event({
+      category: 'Work',
+      action: 'Open ' + project.product.name
+    })
+
     if (element.target.className === "elementContent") {
       window.open(project.product.website)
     }
