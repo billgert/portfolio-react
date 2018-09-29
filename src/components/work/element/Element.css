@@ -37,14 +37,6 @@
   text-align: center;
 }
 
-.elementDescription {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  color: #FFFFFF;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-  text-align: center;
-}
-
 @media (min-width: 751px) {
   .elementContent {
     padding-top: 7.0vw;
@@ -54,17 +46,12 @@
     height: 2.9vw;
   }
   .title {
-    font-size: 3.0vw;
+    font-size: 2.8vw;
   }
   .technologies {
     width: 30%;
     font-size: 1.3vw;
     line-height: 2.1vw;
-  }
-  .elementDescription {
-    width: 60%;
-    font-size: 1.5vw;
-    line-height: 2.3vw;
   }
 }
 
@@ -77,16 +64,11 @@
     height: 6.0vw;
   }
   .title {
-    font-size: 7.0vw;
+    font-size: 6.6vw;
   }
   .technologies {
     width: 75%;
     font-size: 3.0vw;
     line-height: 5.0vw;
-  }
-  .elementDescription {
-    width: 85%;
-    font-size: 2.0vw;
-    line-height: 3.2vw;
   }
 }

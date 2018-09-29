@@ -19,9 +19,7 @@ export default class List extends React.Component {
       action: 'Open ' + project.product.name
     })
 
-    if (element.target.className === "elementContent") {
-      window.open(project.product.website)
-    }
+    window.open(project.product.website)
   }
 }
 

@@ -30,29 +30,9 @@ export const projects = [
         type: "language"
       },
       {
-        name: "Google Places",
-        url: "",
-        type: "framework"
-      },
-      {
-        name: "Firebase Analytics",
-        url: "",
-        type: "framework"
-      },
-      {
         name: "PromiseKit",
         url: "",
         type: "framework"
-      },
-      {
-        name: "Notifications",
-        url: "",
-        type: "apple"
-      },
-      {
-        name: "Core Location",
-        url: "",
-        type: "apple"
       },
       {
         name: "SceneKit",
@@ -351,7 +331,7 @@ export const projects = [
         type: "framework"
       },
       {
-        name: "FacebookSDK",
+        name: "Facebook SDK",
         url: "",
         type: "framework"
       },
