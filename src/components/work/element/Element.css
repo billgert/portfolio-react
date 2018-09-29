@@ -50,8 +50,8 @@
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  opacity: 0.9;
-  filter: alpha(opacity=90); /* For IE8 and earlier */
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
   transition: opacity 0.25s;
 }
 
@@ -93,22 +93,22 @@
     padding-bottom: 13.0vw;
   }
   .logo img {
-    height: 6.0vw;
+    height: 9.2vw;
   }
   .title {
-    font-size: 6.6vw;
+    font-size: 8.2vw;
   }
   .technologies {
     width: 75%;
-    font-size: 3.0vw;
-    line-height: 5.0vw;
+    font-size: 4.0vw;
+    line-height: 6.0vw;
   }
   .companyButton {
-    border-radius: 3.0vw;
-    padding-left: 3.0vw;
-    padding-right: 3.0vw;
-    height: 6.0vw;
-    font-size: 2.3vw;
+    border-radius: 4.0vw;
+    padding-left: 4.0vw;
+    padding-right: 4.0vw;
+    height: 8.0vw;
+    font-size: 2.5vw;
     margin-left: 1.4vw;
     margin-right: 1.4vw;
   }
