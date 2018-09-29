@@ -4,7 +4,7 @@ export const projects = [
   {
     id: 0,
     active: true,
-    role: "Mobile Lead",
+    role: "iOS Lead",
     description_div: <div>Working on a new service called Hint that soon will be launched in beta. As one of the first developers I'm excited to work with likeminded people to create something truly awesome.</div>,
     cover: require('./projects/hint/cover.jpg'),
     employer: {
@@ -18,11 +18,51 @@ export const projects = [
       website: "https://www.gethint.se/",
       logo: require('./projects/hint/logo.png')
     },
-    platforms: [
+    technologies: [
       {
         name: "iOS",
-        ide: "Xcode",
-        language: "Swift"
+        url: "",
+        type: "platform"
+      },
+      {
+        name: "Xcode",
+        url: "",
+        type: "editor"
+      },
+      {
+        name: "Swift",
+        url: "",
+        type: "language"
+      },
+      {
+        name: "Google Places",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "Firebase Analytics",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "PromiseKit",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "Notifications",
+        url: "",
+        type: "apple"
+      },
+      {
+        name: "Core Location",
+        url: "",
+        type: "apple"
+      },
+      {
+        name: "SceneKit",
+        url: "",
+        type: "apple"
       }
     ],
     team: null,
@@ -45,11 +85,41 @@ export const projects = [
       website: "https://www.bokus.com/play",
       logo: require('./projects/bokus/logo.png')
     },
-    platforms: [
+    technologies: [
       {
         name: "iOS",
-        ide: "Xcode",
-        language: "Swift"
+        url: "",
+        type: "platform"
+      },
+      {
+        name: "Xcode",
+        url: "",
+        type: "editor"
+      },
+      {
+        name: "Swift",
+        url: "",
+        type: "language"
+      },
+      {
+        name: "RxSwift",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "Moya",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "Alamofire",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "AVFoundation",
+        url: "",
+        type: "apple"
       }
     ],
     team: [
@@ -81,11 +151,56 @@ export const projects = [
       website: "https://www.maitres.com/",
       logo: require('./projects/maitres/logo.png')
     },
-    platforms: [
+    technologies: [
       {
         name: "iOS",
-        ide: "Xcode",
-        language: "Swift"
+        url: "",
+        type: "platform"
+      },
+      {
+        name: "Xcode",
+        url: "",
+        type: "editor"
+      },
+      {
+        name: "Swift",
+        url: "",
+        type: "language"
+      },
+      {
+        name: "Google Maps",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "Google Places",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "RxSwift",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "Alamofire",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "Firebase Analytics",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "Core Location",
+        url: "",
+        type: "apple"
+      },
+      {
+        name: "Notifications",
+        url: "",
+        type: "apple"
       }
     ],
     team: [
@@ -113,16 +228,31 @@ export const projects = [
       website: "https://www.tui.se/bamse/",
       logo: require('./projects/tui/logo.png')
     },
-    platforms: [
+    technologies: [
       {
         name: "iOS",
-        ide: "Unity 3D",
-        language: "C#"
+        url: "",
+        type: "platform"
       },
       {
         name: "Android",
-        ide: "Unity 3D",
-        language: "C#"
+        url: "",
+        type: "platform"
+      },
+      {
+        name: "Unity 3D",
+        url: "",
+        type: "editor"
+      },
+      {
+        name: "C#",
+        url: "",
+        type: "language"
+      },
+      {
+        name: "Google Analytics",
+        url: "",
+        type: "framework"
       }
     ],
     team: [
@@ -137,6 +267,10 @@ export const projects = [
       {
         name: "Rickard Petersen",
         role: "Mobile Developer"
+      },
+      {
+        name: "Adam Lindfors",
+        role: "Designer"
       }
     ],
     pictures: null
@@ -158,12 +292,32 @@ export const projects = [
       website: "https://dashl.se/",
       logo: require('./projects/dashl/logo.png')
     },
-    platforms: [
+    technologies: [
       {
         name: "iOS",
-        ide: "Xcode",
-        language: "Swift"
-      }
+        url: "",
+        type: "platform"
+      },
+      {
+        name: "Xcode",
+        url: "",
+        type: "editor"
+      },
+      {
+        name: "Swift",
+        url: "",
+        type: "language"
+      },
+      {
+        name: "Storyboards",
+        url: "",
+        type: "apple"
+      },
+      {
+        name: "Core Data",
+        url: "",
+        type: "apple"
+      },
     ],
     team: [
       {
@@ -190,11 +344,46 @@ export const projects = [
       website: "https://www.rebtel.com/en/partners/activist/",
       logo: require('./projects/rebtel/logo.png')
     },
-    platforms: [
+    technologies: [
       {
         name: "iOS",
-        ide: "Xcode",
-        language: "Objective-C"
+        url: "",
+        type: "platform"
+      },
+      {
+        name: "Xcode",
+        url: "",
+        type: "editor"
+      },
+      {
+        name: "Objective-C",
+        url: "",
+        type: "language"
+      },
+      {
+        name: "Google Analytics",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "ReactiveCocoa",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "AFNetworking",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "FacebookSDK",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "Storyboards",
+        url: "",
+        type: "apple"
       }
     ],
     team: [
@@ -222,11 +411,51 @@ export const projects = [
       website: "https://hypebeast.com/2015/6/onesong-music-sharing-app-combines-best-of-instagram-and-spotify",
       logo: require('./projects/onesong/logo.png')
     },
-    platforms: [
+    technologies: [
       {
         name: "iOS",
-        ide: "Xcode",
-        language: "Objective-C"
+        url: "",
+        type: "platform"
+      },
+      {
+        name: "Xcode",
+        url: "",
+        type: "editor"
+      },
+      {
+        name: "Objective-C",
+        url: "",
+        type: "language"
+      },
+      {
+        name: "Google Analytics",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "AFNetworking",
+        url: "",
+        type: "framework"
+      },
+      {
+        name: "AVFoundation",
+        url: "",
+        type: "apple"
+      },
+      {
+        name: "Core Data",
+        url: "",
+        type: "apple"
+      },
+      {
+        name: "Notifications",
+        url: "",
+        type: "apple"
+      },
+      {
+        name: "Storyboards",
+        url: "",
+        type: "apple"
       }
     ],
     team: [
