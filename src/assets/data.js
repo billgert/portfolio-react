@@ -414,7 +414,7 @@ export const projects = [
 ]
 
 export const profile = {
-  description_div: <div>I'm a passionate mobile developer with love for Apple. Working at {<a href="https://www.gethint.se/">Hint</a>} to make way for an emerging industry we like to call think-tech. Website is built and maintained in React.js</div>,
+  description_div: <div>I'm a passionate mobile developer with love for Apple. Working at {<a href="https://www.gethint.se/">Hint</a>} to make way for an emerging industry we like to call think-tech. Website is built with React.js</div>,
   links: [
     {
       "url": "https://stackoverflow.com/users/1970148/billgert",
