@@ -20,11 +20,6 @@ export const projects = [
     },
     technologies: [
       {
-        name: "iOS",
-        url: "",
-        type: "platform"
-      },
-      {
         name: "Xcode",
         url: "",
         type: "editor"
@@ -87,11 +82,6 @@ export const projects = [
     },
     technologies: [
       {
-        name: "iOS",
-        url: "",
-        type: "platform"
-      },
-      {
         name: "Xcode",
         url: "",
         type: "editor"
@@ -152,11 +142,6 @@ export const projects = [
       logo: require('./projects/maitres/logo.png')
     },
     technologies: [
-      {
-        name: "iOS",
-        url: "",
-        type: "platform"
-      },
       {
         name: "Xcode",
         url: "",
@@ -294,11 +279,6 @@ export const projects = [
     },
     technologies: [
       {
-        name: "iOS",
-        url: "",
-        type: "platform"
-      },
-      {
         name: "Xcode",
         url: "",
         type: "editor"
@@ -345,11 +325,6 @@ export const projects = [
       logo: require('./projects/rebtel/logo.png')
     },
     technologies: [
-      {
-        name: "iOS",
-        url: "",
-        type: "platform"
-      },
       {
         name: "Xcode",
         url: "",
@@ -412,11 +387,6 @@ export const projects = [
       logo: require('./projects/onesong/logo.png')
     },
     technologies: [
-      {
-        name: "iOS",
-        url: "",
-        type: "platform"
-      },
       {
         name: "Xcode",
         url: "",
