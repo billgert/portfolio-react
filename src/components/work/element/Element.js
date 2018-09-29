@@ -6,11 +6,15 @@ export default class Element extends React.Component {
   render() {
     const project = this.props.project
     return (
-      <div style={BackgroundStyle(project.cover)} onClick={this.props.onClick}>
+      <div style={BackgroundStyle(project.cover)}>
         <div className="elementContent">
           <Logo url={project.product.logo}/>
           <Role text={project.role}/>
           <Technologies technologies={project.technologies}/>
+          <div className="companiesContainer">
+            <button className="companyButton" onClick={this.props.onClickProduct}>{project.product.name}</button>
+            <button className="companyButton" onClick={this.props.onClickEmployer}>{project.employer.name}</button>
+          </div>
         </div>
       </div>
     )
