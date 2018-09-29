@@ -10,7 +10,13 @@ export default class Element extends React.Component {
         <div className="elementContent">
           <Logo url={project.product.logo}/>
           <Role text={project.role}/>
-          <Description text={project.description_div}/>
+          <Technologies text={
+            project.technologies.map((technology, index) =>
+              <text key={technology.name}>
+                {technology.name + (index != project.technologies.length - 1 ? " | " : "") }
+              </text>
+            )
+          }/>
         </div>
       </div>
     )
@@ -34,6 +40,12 @@ function Logo(props) {
 
 function Role(props) {
   return <div className="title">
+    {props.text}
+  </div>
+}
+
+function Technologies(props) {
+  return <div className="technologies">
     {props.text}
   </div>
 }
