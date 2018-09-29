@@ -6,11 +6,15 @@ export default class Element extends React.Component {
   render() {
     const project = this.props.project
     return (
-      <div style={BackgroundStyle(project.cover)} onClick={this.props.onClick}>
+      <div style={BackgroundStyle(project.cover)}>
         <div className="elementContent">
           <Logo url={project.product.logo}/>
           <Role text={project.role}/>
-          <Description text={project.description_div}/>
+          <Technologies technologies={project.technologies}/>
+          <div className="companiesContainer">
+            <button className="companyButton" onClick={this.props.onClickProduct}>{project.product.name}</button>
+            <button className="companyButton" onClick={this.props.onClickEmployer}>{project.employer.name}</button>
+          </div>
         </div>
       </div>
     )
@@ -38,8 +42,12 @@ function Role(props) {
   </div>
 }
 
-function Description(props) {
-  return <div className="elementDescription">
-    {props.text}
+function Technologies(props) {
+  return <div className="technologies">
+    {props.technologies.map((technology, index) =>
+      <text key={technology.name}>
+        {technology.name + (index != props.technologies.length - 1 ? " | " : "") }
+      </text>
+    )}
   </div>
 }
