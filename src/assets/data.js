@@ -30,15 +30,15 @@ export const projects = [
         type: "language"
       },
       {
+        name: "SceneKit",
+        url: "",
+        type: "framework-apple"
+      },
+      {
         name: "PromiseKit",
         url: "",
         type: "framework"
       },
-      {
-        name: "SceneKit",
-        url: "",
-        type: "apple"
-      }
     ],
     team: null,
     pictures: null
@@ -72,6 +72,11 @@ export const projects = [
         type: "language"
       },
       {
+        name: "AVFoundation",
+        url: "",
+        type: "framework-apple"
+      },
+      {
         name: "RxSwift",
         url: "",
         type: "framework"
@@ -85,11 +90,6 @@ export const projects = [
         name: "Alamofire",
         url: "",
         type: "framework"
-      },
-      {
-        name: "AVFoundation",
-        url: "",
-        type: "apple"
       }
     ],
     team: [
@@ -133,12 +133,17 @@ export const projects = [
         type: "language"
       },
       {
-        name: "Google Maps",
+        name: "Core Location",
         url: "",
-        type: "framework"
+        type: "framework-apple"
       },
       {
-        name: "Google Places",
+        name: "Notifications",
+        url: "",
+        type: "framework-apple"
+      },
+      {
+        name: "Google Maps",
         url: "",
         type: "framework"
       },
@@ -156,16 +161,6 @@ export const projects = [
         name: "Firebase Analytics",
         url: "",
         type: "framework"
-      },
-      {
-        name: "Core Location",
-        url: "",
-        type: "apple"
-      },
-      {
-        name: "Notifications",
-        url: "",
-        type: "apple"
       }
     ],
     team: [
@@ -271,12 +266,12 @@ export const projects = [
       {
         name: "Storyboards",
         url: "",
-        type: "apple"
+        type: "framework-apple"
       },
       {
         name: "Core Data",
         url: "",
-        type: "apple"
+        type: "framework-apple"
       },
     ],
     team: [
@@ -316,6 +311,11 @@ export const projects = [
         type: "language"
       },
       {
+        name: "Storyboards",
+        url: "",
+        type: "framework-apple"
+      },
+      {
         name: "Google Analytics",
         url: "",
         type: "framework"
@@ -334,11 +334,6 @@ export const projects = [
         name: "Facebook SDK",
         url: "",
         type: "framework"
-      },
-      {
-        name: "Storyboards",
-        url: "",
-        type: "apple"
       }
     ],
     team: [
@@ -378,6 +373,26 @@ export const projects = [
         type: "language"
       },
       {
+        name: "AVFoundation",
+        url: "",
+        type: "framework-apple"
+      },
+      {
+        name: "Core Data",
+        url: "",
+        type: "framework-apple"
+      },
+      {
+        name: "Notifications",
+        url: "",
+        type: "framework-apple"
+      },
+      {
+        name: "Storyboards",
+        url: "",
+        type: "framework-apple"
+      },
+      {
         name: "Google Analytics",
         url: "",
         type: "framework"
@@ -386,26 +401,6 @@ export const projects = [
         name: "AFNetworking",
         url: "",
         type: "framework"
-      },
-      {
-        name: "AVFoundation",
-        url: "",
-        type: "apple"
-      },
-      {
-        name: "Core Data",
-        url: "",
-        type: "apple"
-      },
-      {
-        name: "Notifications",
-        url: "",
-        type: "apple"
-      },
-      {
-        name: "Storyboards",
-        url: "",
-        type: "apple"
       }
     ],
     team: [
@@ -419,7 +414,7 @@ export const projects = [
 ]
 
 export const profile = {
-  description_div: <div>I'm a passionate mobile developer with love for Apple. Working at {<a href="https://www.gethint.se/">Hint</a>} to make way for an emerging industry we like to call think-tech.</div>,
+  description_div: <div>I'm a passionate mobile developer with love for Apple. Working at {<a href="https://www.gethint.se/">Hint</a>} to make way for an emerging industry we like to call think-tech. Website is built and maintained in React.js</div>,
   links: [
     {
       "url": "https://stackoverflow.com/users/1970148/billgert",
