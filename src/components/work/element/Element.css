@@ -3,53 +3,90 @@
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding-top: 110px;
-  padding-bottom: 110px;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.35);
   transition: background-color 0.25s;
   width: 100%;
 }
 
 .elementContent:hover {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.55);
 }
 
 .logo img {
   width: auto;
-  height: 36px;
 }
 
 .title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 36px;
   color: #FFFFFF;
   text-shadow: 0 2px 4px rgba(0,0,0,0.25);
   text-align: center;
   padding-top: 13px;
-  padding-bottom: 15px;
+  padding-bottom: 13px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.technologies {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  opacity: 0.9;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-align: center;
 }
 
 .elementDescription {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  font-size: 18px;
   color: #FFFFFF;
-  line-height: 28px;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
   text-align: center;
 }
 
 @media (min-width: 751px) {
+  .elementContent {
+    padding-top: 7.0vw;
+    padding-bottom: 7.0vw;
+  }
+  .logo img {
+    height: 2.9vw;
+  }
+  .title {
+    font-size: 3.0vw;
+  }
+  .technologies {
+    width: 30%;
+    font-size: 1.3vw;
+    line-height: 2.1vw;
+  }
   .elementDescription {
     width: 60%;
+    font-size: 1.5vw;
+    line-height: 2.3vw;
   }
 }
 
 @media (max-width: 750px) {
+  .elementContent {
+    padding-top: 13.0vw;
+    padding-bottom: 13.0vw;
+  }
+  .logo img {
+    height: 6.0vw;
+  }
+  .title {
+    font-size: 7.0vw;
+  }
+  .technologies {
+    width: 75%;
+    font-size: 3.0vw;
+    line-height: 5.0vw;
+  }
   .elementDescription {
     width: 85%;
+    font-size: 2.0vw;
+    line-height: 3.2vw;
   }
 }
