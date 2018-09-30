@@ -16,7 +16,7 @@ export default class List extends React.Component {
   handleProductClick = (product, element) => {
     ReactGA.event({
       category: 'Work',
-      action: 'Open product' + product.name
+      action: 'Open product ' + product.name
     })
 
     window.open(product.website)
@@ -25,7 +25,7 @@ export default class List extends React.Component {
   handleEmployerClick = (employer, element) => {
     ReactGA.event({
       category: 'Work',
-      action: 'Open employer' + employer.name
+      action: 'Open employer ' + employer.name
     })
 
     window.open(employer.website)
