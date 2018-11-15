@@ -4,12 +4,12 @@ export const projects = [
   {
     id: 0,
     active: true,
-    role: "iOS Lead",
+    role: "Mobile Lead",
     description: "Working on a new service called Hint that soon will be launched in beta. As one of the first developers I'm excited to work with likeminded people to create something truly awesome.",
     cover: require('./projects/hint/cover.jpg'),
     employer: {
       name: "Hint AB",
-      "website": "https://www.gethint.se/",
+      website: "https://www.gethint.se/",
       logo: require('./projects/hint/logo.png')
     },
     product: {
@@ -183,7 +183,7 @@ export const projects = [
       logo: ""
     },
     product: {
-      name: "Bamseklubben",
+      name: "TUI Bamseklubben",
       description: "",
       website: "https://www.tui.se/bamse/",
       logo: require('./projects/tui/logo.png')
