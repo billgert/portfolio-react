@@ -414,7 +414,7 @@ export const projects = [
 ]
 
 export const profile = {
-  description_div: <div>Dedicated mobile developer based in Stockholm. Focusing on iOS since 2012 with some experience in watchOS, Android, Unity 3D and React. Some of the other brands I've worked with includes {<a href="https://itunes.apple.com/se/app/min-volvo/id1340848952?mt=8">Volvo</a>}, {<a href="https://itunes.apple.com/se/app/arla-köket-recept-och-mat/id415895347?mt=8">Arla</a>}, {<a href="https://itunes.apple.com/se/app/litago-moojis/id970456880?mt=8">Litago</a>} and {<a href="https://itunes.apple.com/se/app/kyrkguiden/id472300717?mt=8">Swedish Church</a>}. Currently at {<a href="https://www.gethint.se/">Hint</a>} to make way for an emerging industry we like to call think-tech.</div>,
+  description_div: <div>Dedicated mobile developer based in Stockholm. Focusing on iOS since 2012 with some experience in watchOS, Android, Unity 3D and React. Some of the other brands I've worked with (not listed above) includes {<a href="https://itunes.apple.com/se/app/min-volvo/id1340848952?mt=8">Volvo</a>}, {<a href="https://itunes.apple.com/se/app/arla-köket-recept-och-mat/id415895347?mt=8">Arla</a>}, {<a href="https://itunes.apple.com/se/app/litago-moojis/id970456880?mt=8">Litago</a>} and {<a href="https://itunes.apple.com/se/app/kyrkguiden/id472300717?mt=8">Swedish Church</a>}. Currently at {<a href="https://www.gethint.se/">Hint</a>} to make way for an emerging industry we like to call think-tech.</div>,
   links: [
     {
       "url": "https://stackoverflow.com/users/1970148/billgert",
