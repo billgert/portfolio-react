@@ -1,5 +1,4 @@
 import React from 'react'
-import Intro from './intro/Intro'
 import List from './work/list/List'
 import About from './about/About'
 import Contact from './contact/Contact'

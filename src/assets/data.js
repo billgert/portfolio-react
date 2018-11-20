@@ -1,10 +1,5 @@
 import React from 'react'
 
-export const introduction = {
-  description_div: <div>Building mobile applications since 2012 focusing on iOS with some experience in watchOS, Android, React Native and Unity 3D. Some of the other brands I've worked with includes {<a href="">Volvo</a>}, {<a href="">Arla</a>}, {<a href="">Litago</a>}, {<a href="">Fabege</a>} and {<a href="">Swedish Church</a>}.</div>,
-  url: require('./backgrounds/programmer.jpg')
-}
-
 export const projects = [
   {
     id: 0,
