@@ -1,5 +1,10 @@
 import React from 'react'
 
+export const introduction = {
+  description_div: <div>Building mobile applications since 2012 focusing on iOS with some experience in watchOS, Android, React Native and Unity 3D. Some of the other brands I've worked with includes {<a href="">Volvo</a>}, {<a href="">Arla</a>}, {<a href="">Litago</a>}, {<a href="">Fabege</a>} and {<a href="">Swedish Church</a>}.</div>,
+  url: require('./backgrounds/programmer.jpg')
+}
+
 export const projects = [
   {
     id: 0,
@@ -414,7 +419,7 @@ export const projects = [
 ]
 
 export const profile = {
-  description_div: <div>I'm a passionate mobile developer with love for Apple. Currently based in Stockholm. Working at {<a href="https://www.gethint.se/">Hint</a>} to make way for an emerging industry we like to call think-tech. Website is built with React.js</div>,
+  description_div: <div>I'm a passionate mobile developer based in Stockholm. Focusing on iOS since 2012 with some experience in watchOS, Android, React Native and Unity 3D. Some of the other brands I've worked with includes {<a href="https://itunes.apple.com/se/app/min-volvo/id1340848952?mt=8">Volvo</a>}, {<a href="https://itunes.apple.com/se/app/arla-köket-recept-och-mat/id415895347?mt=8">Arla</a>}, {<a href="https://itunes.apple.com/se/app/litago-moojis/id970456880?mt=8">Litago</a>} and {<a href="https://itunes.apple.com/se/app/kyrkguiden/id472300717?mt=8">Swedish Church</a>}. Currently at {<a href="https://www.gethint.se/">Hint</a>} to make way for an emerging industry we like to call think-tech.</div>,
   links: [
     {
       "url": "https://stackoverflow.com/users/1970148/billgert",
