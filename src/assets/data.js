@@ -4,7 +4,7 @@ export const projects = [
   {
     id: 0,
     active: true,
-    role: "Mobile Lead",
+    role: "Developer",
     description: "Working on a new service called Hint that soon will be launched in beta. As one of the first developers I'm excited to work with likeminded people to create something truly awesome.",
     cover: require('./projects/hint/cover.jpg'),
     employer: {
@@ -19,6 +19,16 @@ export const projects = [
       logo: require('./projects/hint/logo.png')
     },
     technologies: [
+      {
+        name: "React",
+        url: "",
+        type: "platform"
+      },
+      {
+        name: "Javascript",
+        url: "",
+        type: "language"
+      },
       {
         name: "Xcode",
         url: "",
@@ -39,6 +49,11 @@ export const projects = [
         url: "",
         type: "framework"
       },
+      {
+        name: "WatchKit",
+        url: "",
+        type: "framework-apple"
+      }
     ],
     team: null,
     pictures: null
@@ -414,7 +429,7 @@ export const projects = [
 ]
 
 export const profile = {
-  description_div: <div>Dedicated mobile developer based in Stockholm. Focusing on iOS since 2012 with some experience in watchOS, Android, Unity 3D and React. Other brands I've worked with includes {<a href="https://itunes.apple.com/se/app/min-volvo/id1340848952?mt=8">Volvo</a>}, {<a href="https://itunes.apple.com/se/app/arla-köket-recept-och-mat/id415895347?mt=8">Arla</a>}, {<a href="https://itunes.apple.com/se/app/litago-moojis/id970456880?mt=8">Litago</a>} and {<a href="https://itunes.apple.com/se/app/kyrkguiden/id472300717?mt=8">Swedish Church</a>}. Currently at {<a href="https://www.gethint.se/">Hint</a>} to make way for an emerging industry we like to call think-tech.</div>,
+  description_div: <div>Dedicated mobile developer based in Stockholm. Focusing on iOS since 2012 with some experience in watchOS, Android, Unity 3D and React. Other brands I've worked with includes {<a href="https://itunes.apple.com/se/app/min-volvo/id1340848952?mt=8">Volvo</a>}, {<a href="https://itunes.apple.com/se/app/arla-köket-recept-och-mat/id415895347?mt=8">Arla</a>}, {<a href="https://itunes.apple.com/se/app/litago-moojis/id970456880?mt=8">Litago</a>} and {<a href="https://itunes.apple.com/se/app/kyrkguiden/id472300717?mt=8">Swedish Church</a>}.</div>,
   links: [
     {
       "url": "https://stackoverflow.com/users/1970148/billgert",
