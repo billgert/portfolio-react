@@ -4,7 +4,7 @@ export const projects = [
   {
     id: 0,
     active: true,
-    role: "Developer",
+    role: "iOS Developer",
     description: "Working on a new service called Hint that soon will be launched in beta. As one of the first developers I'm excited to work with likeminded people to create something truly awesome.",
     cover: require('./projects/hint/cover.jpg'),
     employer: {
@@ -19,16 +19,6 @@ export const projects = [
       logo: require('./projects/hint/logo.png')
     },
     technologies: [
-      {
-        name: "React",
-        url: "",
-        type: "platform"
-      },
-      {
-        name: "Javascript",
-        url: "",
-        type: "language"
-      },
       {
         name: "Xcode",
         url: "",
@@ -45,14 +35,19 @@ export const projects = [
         type: "framework-apple"
       },
       {
-        name: "PromiseKit",
+        name: "Core Location",
         url: "",
-        type: "framework"
+        type: "framework-apple"
       },
       {
         name: "WatchKit",
         url: "",
         type: "framework-apple"
+      },
+      {
+        name: "PromiseKit",
+        url: "",
+        type: "framework"
       }
     ],
     team: null,
