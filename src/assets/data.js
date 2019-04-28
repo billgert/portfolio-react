@@ -22,7 +22,7 @@ export const projects = [
       {
         name: "Xcode",
         url: "",
-        type: "editor"
+        type: "ide"
       },
       {
         name: "Swift",
@@ -30,24 +30,19 @@ export const projects = [
         type: "language"
       },
       {
-        name: "SceneKit",
+        name: "iPhone",
         url: "",
-        type: "framework-apple"
+        type: "device"
       },
       {
-        name: "Core Location",
+        name: "Widget",
         url: "",
-        type: "framework-apple"
+        type: "extension"
       },
       {
-        name: "WatchKit",
+        name: "Apple Watch",
         url: "",
-        type: "framework-apple"
-      },
-      {
-        name: "PromiseKit",
-        url: "",
-        type: "framework"
+        type: "extension"
       }
     ],
     team: null,
@@ -74,7 +69,7 @@ export const projects = [
       {
         name: "Xcode",
         url: "",
-        type: "editor"
+        type: "ide"
       },
       {
         name: "Swift",
@@ -82,24 +77,9 @@ export const projects = [
         type: "language"
       },
       {
-        name: "AVFoundation",
+        name: "iPhone",
         url: "",
-        type: "framework-apple"
-      },
-      {
-        name: "RxSwift",
-        url: "",
-        type: "framework"
-      },
-      {
-        name: "Moya",
-        url: "",
-        type: "framework"
-      },
-      {
-        name: "Alamofire",
-        url: "",
-        type: "framework"
+        type: "device"
       }
     ],
     team: [
@@ -135,7 +115,7 @@ export const projects = [
       {
         name: "Xcode",
         url: "",
-        type: "editor"
+        type: "ide"
       },
       {
         name: "Swift",
@@ -143,34 +123,9 @@ export const projects = [
         type: "language"
       },
       {
-        name: "Core Location",
+        name: "iPhone",
         url: "",
-        type: "framework-apple"
-      },
-      {
-        name: "Notifications",
-        url: "",
-        type: "framework-apple"
-      },
-      {
-        name: "Google Maps",
-        url: "",
-        type: "framework"
-      },
-      {
-        name: "RxSwift",
-        url: "",
-        type: "framework"
-      },
-      {
-        name: "Alamofire",
-        url: "",
-        type: "framework"
-      },
-      {
-        name: "Firebase Analytics",
-        url: "",
-        type: "framework"
+        type: "device"
       }
     ],
     team: [
@@ -200,6 +155,16 @@ export const projects = [
     },
     technologies: [
       {
+        name: "Unity 3D",
+        url: "",
+        type: "game-engine"
+      },
+      {
+        name: "C#",
+        url: "",
+        type: "language"
+      },
+      {
         name: "iOS",
         url: "",
         type: "platform"
@@ -209,21 +174,6 @@ export const projects = [
         url: "",
         type: "platform"
       },
-      {
-        name: "Unity 3D",
-        url: "",
-        type: "editor"
-      },
-      {
-        name: "C#",
-        url: "",
-        type: "language"
-      },
-      {
-        name: "Google Analytics",
-        url: "",
-        type: "framework"
-      }
     ],
     team: [
       {
@@ -266,7 +216,7 @@ export const projects = [
       {
         name: "Xcode",
         url: "",
-        type: "editor"
+        type: "ide"
       },
       {
         name: "Swift",
@@ -274,15 +224,10 @@ export const projects = [
         type: "language"
       },
       {
-        name: "Storyboards",
+        name: "iPhone",
         url: "",
-        type: "framework-apple"
-      },
-      {
-        name: "Core Data",
-        url: "",
-        type: "framework-apple"
-      },
+        type: "device"
+      }
     ],
     team: [
       {
@@ -313,7 +258,7 @@ export const projects = [
       {
         name: "Xcode",
         url: "",
-        type: "editor"
+        type: "ide"
       },
       {
         name: "Objective-C",
@@ -321,29 +266,9 @@ export const projects = [
         type: "language"
       },
       {
-        name: "Storyboards",
+        name: "iPhone",
         url: "",
-        type: "framework-apple"
-      },
-      {
-        name: "Google Analytics",
-        url: "",
-        type: "framework"
-      },
-      {
-        name: "ReactiveCocoa",
-        url: "",
-        type: "framework"
-      },
-      {
-        name: "AFNetworking",
-        url: "",
-        type: "framework"
-      },
-      {
-        name: "Facebook SDK",
-        url: "",
-        type: "framework"
+        type: "device"
       }
     ],
     team: [
@@ -375,7 +300,7 @@ export const projects = [
       {
         name: "Xcode",
         url: "",
-        type: "editor"
+        type: "ide"
       },
       {
         name: "Objective-C",
@@ -383,34 +308,9 @@ export const projects = [
         type: "language"
       },
       {
-        name: "AVFoundation",
+        name: "iPhone",
         url: "",
-        type: "framework-apple"
-      },
-      {
-        name: "Core Data",
-        url: "",
-        type: "framework-apple"
-      },
-      {
-        name: "Notifications",
-        url: "",
-        type: "framework-apple"
-      },
-      {
-        name: "Storyboards",
-        url: "",
-        type: "framework-apple"
-      },
-      {
-        name: "Google Analytics",
-        url: "",
-        type: "framework"
-      },
-      {
-        name: "AFNetworking",
-        url: "",
-        type: "framework"
+        type: "device"
       }
     ],
     team: [
