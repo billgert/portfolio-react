@@ -4,7 +4,7 @@ export const projects = [
   {
     id: 0,
     active: true,
-    role: "iOS Developer",
+    role: "Mobile Lead",
     description: "Working on a new service called Hint that soon will be launched in beta. As one of the first developers I'm excited to work with likeminded people to create something truly awesome.",
     cover: require('./projects/hint/cover.jpg'),
     employer: {
