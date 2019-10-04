@@ -45,19 +45,17 @@
 }
 
 .companyButton {
-  background: #e74e71;
+  background: rgba(255, 255, 255, 0.877);
+  color: rgba(0, 0, 0, 0.904);
   border-style: hidden;
-  color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  opacity: 0.85;
-  filter: alpha(opacity=85); /* For IE8 and earlier */
   transition: opacity 0.25s;
 }
 
 .companyButton:hover {
-  opacity: 1.0;
-  filter: alpha(opacity=100); /* For IE8 and earlier */
+  background: #00c2ba;
+  color: whitesmoke;
 }
 
 @media (min-width: 751px) {
