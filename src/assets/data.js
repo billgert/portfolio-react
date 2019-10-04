@@ -2,9 +2,8 @@ import React from 'react'
 
 export const projects = [
   {
-    id: 0,
     active: true,
-    role: "Mobile Lead",
+    role: "iOS Developer",
     description: "Working on a new service called Hint that soon will be launched in beta. As one of the first developers I'm excited to work with likeminded people to create something truly awesome.",
     cover: require('./projects/hint/cover.jpg'),
     employer: {
@@ -49,7 +48,6 @@ export const projects = [
     pictures: null
   },
   {
-    id: 1,
     active: false,
     role: "iOS Developer",
     description: "Bokus has entered the booming industry of audiobooks with a brand new app. Mainly responsible for implementing the design and user experience in the first version.",
@@ -95,7 +93,6 @@ export const projects = [
     pictures: null
   },
   {
-    id: 2,
     active: false,
     role: "iOS Lead",
     description: "As I have experience working in the restaurant-business this project was extra fun. MAÎTRES lets you connect with restaurants to book, pay and rate without having to wait for the bill.",
@@ -137,7 +134,6 @@ export const projects = [
     pictures: null
   },
   {
-    id: 3,
     active: false,
     role: "Mobile Developer",
     description: "Bamseklubben is a game starring the Swedish cartoon character Bamse. Developed cross-platform for the Nordics with over 10.000 kids playing in the first weeks.",
@@ -196,7 +192,6 @@ export const projects = [
     pictures: null
   },
   {
-    id: 4,
     active: false,
     role: "iOS Lead",
     description: "I helped define, design and develop a prototype app for Dashl in their early stages. Their network of stylists is now the go-to-place for beauty treatments in Stockholm.",
@@ -238,7 +233,6 @@ export const projects = [
     pictures: null
   },
   {
-    id: 5,
     active: false,
     role: "iOS Developer",
     description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
@@ -280,7 +274,6 @@ export const projects = [
     pictures: null
   },
   {
-    id: 6,
     active: false,
     role: "iOS Developer",
     description: "Each person is one song and together they become a playlist. OneSong aimed to be the daily soundtrack of you and your social network. Think of it like Spotify and Instagram having a baby.",
@@ -324,7 +317,7 @@ export const projects = [
 ]
 
 export const profile = {
-  description_div: <div>Dedicated mobile developer based in Stockholm. Focusing on iOS since 2012 with some experience in watchOS, Android, Unity 3D and React. Other brands I've worked with includes {<a href="https://itunes.apple.com/se/app/min-volvo/id1340848952?mt=8">Volvo</a>}, {<a href="https://itunes.apple.com/se/app/arla-köket-recept-och-mat/id415895347?mt=8">Arla</a>}, {<a href="https://itunes.apple.com/se/app/litago-moojis/id970456880?mt=8">Litago</a>} and {<a href="https://itunes.apple.com/se/app/kyrkguiden/id472300717?mt=8">Swedish Church</a>}.</div>,
+  description_div: <div>Dedicated mobile developer based in Stockholm. Focusing on iOS since 2012 with some experience in watchOS, Android, Unity 3D and React. This is a selection of my work. Also, {<a href="https://www.bruce.app">IM WITH BRUCE</a>}</div>,
   links: [
     {
       "url": "https://stackoverflow.com/users/1970148/billgert",
