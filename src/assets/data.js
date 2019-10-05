@@ -317,7 +317,7 @@ export const projects = [
 ]
 
 export const profile = {
-  description_div: <div>Dedicated mobile developer based in Stockholm. Focusing on iOS since 2012 with some experience in watchOS, Android, Unity 3D and React. This is a selection of my work. {<a href="https://www.bruce.app">IM WITH BRUCE</a>}</div>,
+  description_div: <div>Dedicated mobile developer based in Stockholm. Focusing on iOS since 2012 with some experience in watchOS, Android, Unity 3D and React. This is a selection of my previous work. {<a href="https://www.bruce.app">IM WITH BRUCE</a>}</div>,
   links: [
     {
       "url": "https://stackoverflow.com/users/1970148/billgert",
