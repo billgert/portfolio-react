@@ -2,9 +2,52 @@ import React from 'react'
 
 export const projects = [
   {
-    active: true,
-    role: "iOS Developer",
-    description: "Working on a new service called Hint that soon will be launched in beta. As one of the first developers I'm excited to work with likeminded people to create something truly awesome.",
+    active: false,
+    role: "iOS Lead",
+    description: "The world's first AI enabled Calculus tutor. Huge project spanning across three different timezones (New York, Denver and Stockholm). With over 40 people involved, I was part of the product team and lead the development of the iOS application from start to beta.",
+    cover: require('./projects/aida/cover.jpeg'),
+    employer: {
+      name: "Doberman AB",
+      website: "https://doberman.co/",
+      logo: ""
+    },
+    product: {
+      name: "Aida",
+      description: "",
+      website: "https://www.pearson.com/en-us/learner/products-and-services/learning-apps-development/aida.html",
+      logo: require('./projects/aida/logo.png')
+    },
+    keywords: [
+      "Math",
+      "AI",
+      "OCR",
+      "Swift",
+      "iPhone"
+    ],
+    team: [
+      {
+        name: "Joe Fraga",
+        role: "Lead Engineer"
+      },
+      {
+        name: "Mathias Palm",
+        role: "iOS Developer"
+      },
+      {
+        name: "Rikard Lindström",
+        role: "iOS Developer"
+      },
+      {
+        name: "Andrey Zhukov",
+        role: "iOS Developer"
+      }
+    ],
+    pictures: null
+  },
+  {
+    active: false,
+    role: "iOS Lead",
+    description: "A new service called Hint that enables groundbreaking behavioural prediction AI. It foresees spending and plans a unique budget for each of everyone's financial behaviour in seconds. I made the Alpha and Beta app.",
     cover: require('./projects/hint/cover.jpg'),
     employer: {
       name: "Hint AB",
@@ -17,32 +60,12 @@ export const projects = [
       website: "https://www.gethint.se/",
       logo: require('./projects/hint/logo.png')
     },
-    technologies: [
-      {
-        name: "Xcode",
-        url: "",
-        type: "ide"
-      },
-      {
-        name: "Swift",
-        url: "",
-        type: "language"
-      },
-      {
-        name: "iPhone",
-        url: "",
-        type: "device"
-      },
-      {
-        name: "Widget",
-        url: "",
-        type: "extension"
-      },
-      {
-        name: "Apple Watch",
-        url: "",
-        type: "extension"
-      }
+    keywords: [
+      "Economy",
+      "AI",
+      "Swift",
+      "iPhone",
+      "Watch"
     ],
     team: null,
     pictures: null
@@ -54,7 +77,7 @@ export const projects = [
     cover: require('./projects/bokus/cover.jpg'),
     employer: {
       name: "BBH Stockholm",
-      website: "https://www.bbhstockholm.se/bokus-play",
+      website: "https://www.bbhstockholm.se",
       logo: ""
     },
     product: {
@@ -63,22 +86,12 @@ export const projects = [
       website: "https://www.bokus.com/play",
       logo: require('./projects/bokus/logo.png')
     },
-    technologies: [
-      {
-        name: "Xcode",
-        url: "",
-        type: "ide"
-      },
-      {
-        name: "Swift",
-        url: "",
-        type: "language"
-      },
-      {
-        name: "iPhone",
-        url: "",
-        type: "device"
-      }
+    keywords: [
+      "Books",
+      "Audio",
+      "GPS",
+      "Swift",
+      "iPhone"
     ],
     team: [
       {
@@ -99,7 +112,7 @@ export const projects = [
     cover: require('./projects/maitres/cover.jpg'),
     employer: {
       name: "BBH Stockholm",
-      website: "https://www.bbhstockholm.se/maitres",
+      website: "https://www.bartleboglehegarty.com/case-studies/always-a-regular",
       logo: ""
     },
     product: {
@@ -108,22 +121,11 @@ export const projects = [
       website: "https://www.maitres.com/",
       logo: require('./projects/maitres/logo.png')
     },
-    technologies: [
-      {
-        name: "Xcode",
-        url: "",
-        type: "ide"
-      },
-      {
-        name: "Swift",
-        url: "",
-        type: "language"
-      },
-      {
-        name: "iPhone",
-        url: "",
-        type: "device"
-      }
+    keywords: [
+      "Dining",
+      "GPS",
+      "Swift",
+      "iPhone"
     ],
     team: [
       {
@@ -149,27 +151,13 @@ export const projects = [
       website: "https://www.tui.se/bamse/",
       logo: require('./projects/tui/logo.png')
     },
-    technologies: [
-      {
-        name: "Unity 3D",
-        url: "",
-        type: "game-engine"
-      },
-      {
-        name: "C#",
-        url: "",
-        type: "language"
-      },
-      {
-        name: "iOS",
-        url: "",
-        type: "platform"
-      },
-      {
-        name: "Android",
-        url: "",
-        type: "platform"
-      },
+    keywords: [
+      "Kids",
+      "Game",
+      "Unity 3D",
+      "C#",
+      "iOS",
+      "Android"
     ],
     team: [
       {
@@ -183,10 +171,6 @@ export const projects = [
       {
         name: "Rickard Petersen",
         role: "Mobile Developer"
-      },
-      {
-        name: "Adam Lindfors",
-        role: "Designer"
       }
     ],
     pictures: null
@@ -207,22 +191,11 @@ export const projects = [
       website: "https://dashl.se/",
       logo: require('./projects/dashl/logo.png')
     },
-    technologies: [
-      {
-        name: "Xcode",
-        url: "",
-        type: "ide"
-      },
-      {
-        name: "Swift",
-        url: "",
-        type: "language"
-      },
-      {
-        name: "iPhone",
-        url: "",
-        type: "device"
-      }
+    keywords: [
+      "Beauty",
+      "Prototype",
+      "Swift",
+      "iPhone"
     ],
     team: [
       {
@@ -239,7 +212,7 @@ export const projects = [
     cover: require('./projects/rebtel/cover.jpg'),
     employer: {
       name: "BBH Stockholm",
-      website: "https://www.bbhstockholm.se/rebtel",
+      website: "https://www.bartleboglehegarty.com/case-studies/activists",
       logo: ""
     },
     product: {
@@ -248,22 +221,11 @@ export const projects = [
       website: "https://www.rebtel.com/en/partners/activist/",
       logo: require('./projects/rebtel/logo.png')
     },
-    technologies: [
-      {
-        name: "Xcode",
-        url: "",
-        type: "ide"
-      },
-      {
-        name: "Objective-C",
-        url: "",
-        type: "language"
-      },
-      {
-        name: "iPhone",
-        url: "",
-        type: "device"
-      }
+    keywords: [
+      "Employment",
+      "Tele",
+      "Objective-C",
+      "iPhone"
     ],
     team: [
       {
@@ -289,22 +251,11 @@ export const projects = [
       website: "https://hypebeast.com/2015/6/onesong-music-sharing-app-combines-best-of-instagram-and-spotify",
       logo: require('./projects/onesong/logo.png')
     },
-    technologies: [
-      {
-        name: "Xcode",
-        url: "",
-        type: "ide"
-      },
-      {
-        name: "Objective-C",
-        url: "",
-        type: "language"
-      },
-      {
-        name: "iPhone",
-        url: "",
-        type: "device"
-      }
+    keywords: [
+      "Music",
+      "Share",
+      "Objective-C",
+      "iPhone"
     ],
     team: [
       {
