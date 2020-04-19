@@ -18,7 +18,7 @@ export const projects = [
       logo: require('./projects/aida/logo.png')
     },
     keywords: [
-      "Math",
+      "Calculus",
       "AI",
       "OCR",
       "Swift",
