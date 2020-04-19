@@ -37,3 +37,7 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+:focus {
+    outline: none !important;
+}
