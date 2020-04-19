@@ -28,7 +28,7 @@
   padding-right: 15px;
 }
 
-.technologies {
+.keywords {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   color: #FFFFFF;
@@ -69,7 +69,7 @@
   .title {
     font-size: 2.6vw;
   }
-  .technologies {
+  .keywords {
     width: 30%;
     font-size: 1.3vw;
     line-height: 2.1vw;
@@ -96,7 +96,7 @@
   .title {
     font-size: 8.2vw;
   }
-  .technologies {
+  .keywords {
     width: 75%;
     font-size: 4.0vw;
     line-height: 6.0vw;
