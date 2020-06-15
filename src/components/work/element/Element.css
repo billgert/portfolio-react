@@ -9,7 +9,7 @@
 }
 
 .elementContent:hover {
-  background-color: rgba(0,0,0,0.55);
+  background-color: rgba(255,255,255,0.02);
 }
 
 .logo img {
@@ -38,14 +38,14 @@
   padding-bottom: 20px;
 }
 
-.companiesContainer {
+.links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .companyButton {
-  background: rgba(255, 255, 255, 0.877);
+  background: rgba(255, 255, 255, 0.957);
   color: rgba(0, 0, 0, 0.904);
   border-style: hidden;
   font-family: 'Montserrat', sans-serif;
@@ -67,7 +67,7 @@
     height: 2.9vw;
   }
   .title {
-    font-size: 2.6vw;
+    font-size: 2.1vw;
   }
   .keywords {
     width: 30%;
@@ -75,10 +75,10 @@
     line-height: 2.1vw;
   }
   .companyButton {
-    border-radius: 1.2vw;
-    padding-left: 1.2vw;
-    padding-right: 1.2vw;
-    height: 2.4vw;
+    border-radius: 1.1vw;
+    padding-left: 1.1vw;
+    padding-right: 1.1vw;
+    height: 2.3vw;
     font-size: 0.8vw;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
@@ -94,7 +94,7 @@
     height: 9.2vw;
   }
   .title {
-    font-size: 8.2vw;
+    font-size: 7.2vw;
   }
   .keywords {
     width: 75%;
@@ -102,11 +102,11 @@
     line-height: 6.0vw;
   }
   .companyButton {
-    border-radius: 4.0vw;
-    padding-left: 4.0vw;
-    padding-right: 4.0vw;
-    height: 8.0vw;
-    font-size: 2.5vw;
+    border-radius: 3.5vw;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    height: 7.0vw;
+    font-size: 2.4vw;
     margin-left: 1.4vw;
     margin-right: 1.4vw;
   }

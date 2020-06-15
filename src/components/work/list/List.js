@@ -8,27 +8,18 @@ export default class List extends React.Component {
     const projects = this.props.projects
     return (
       <div className="container">
-        <Elements projects={projects} handleProductClick={this.handleProductClick} handleEmployerClick={this.handleEmployerClick}/>
+        <Elements projects={projects} handleLinkClick={this.handleLinkClick}/>
       </div>
     )
   }
 
-  handleProductClick = (product, element) => {
+  handleLinkClick = (link) => {
     ReactGA.event({
       category: 'Work',
-      action: 'Open product ' + product.name
+      action: 'Open link ' + link.name
     })
 
-    window.open(product.website)
-  }
-
-  handleEmployerClick = (employer, element) => {
-    ReactGA.event({
-      category: 'Work',
-      action: 'Open employer ' + employer.name
-    })
-
-    window.open(employer.website)
+    window.open(link.url)
   }
 }
 
@@ -37,8 +28,7 @@ function Elements(props) {
     return <Element
       key={project.id}
       project={project}
-      onClickProduct={(e) => props.handleProductClick(project.product, e)}
-      onClickEmployer={(e) => props.handleEmployerClick(project.employer, e)}
+      onClickLink={(link) => props.handleLinkClick(link)}
     />
   })
 }

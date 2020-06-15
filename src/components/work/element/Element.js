@@ -9,11 +9,14 @@ export default class Element extends React.Component {
       <div style={BackgroundStyle(project.cover)}>
         <div className="elementContent">
           <Logo url={project.product.logo}/>
-          <Role text={project.role}/>
+          <Title text={project.product.name}/>
           <Keywords keywords={project.keywords}/>
-          <div className="companiesContainer">
-            <button className="companyButton" onClick={this.props.onClickProduct}>{project.product.name}</button>
-            <button className="companyButton" onClick={this.props.onClickEmployer}>{project.employer.name}</button>
+          <div className="links">
+            {
+              project.links.map((link, index) =>
+                <button key={link} className="companyButton" onClick={() => this.props.onClickLink(link)}>{link.name}</button>
+              )
+            }
           </div>
         </div>
       </div>
@@ -36,7 +39,7 @@ function Logo(props) {
   </div>
 }
 
-function Role(props) {
+function Title(props) {
   return <div className="title">
     {props.text}
   </div>
