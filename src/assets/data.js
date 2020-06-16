@@ -7,7 +7,7 @@ export const projects = [
     description: "The world's first AI enabled Calculus tutor. Huge project spanning across three different timezones (New York, Denver and Stockholm). With over 40 people involved, I was part of the product team and lead the development of the iOS application from start to beta.",
     cover: require('./projects/aida/cover.jpg'),
     product: {
-      name: "Aida by Pearson",
+      name: "Aida",
       description: "",
       logo: require('./projects/aida/logo.png')
     },
@@ -15,6 +15,10 @@ export const projects = [
       {
         name: "Aida",
         url: "https://www.pearson.com/en-us/learner/products-and-services/learning-apps-development/aida.html"
+      },
+      {
+        name: "Pearson",
+        url: "https://www.pearson.com/"
       },
       {
         name: "Doberman",
@@ -101,7 +105,6 @@ export const projects = [
     keywords: [
       "Books",
       "Audio",
-      "GPS",
       "Swift",
       "iOS"
     ],
@@ -140,6 +143,7 @@ export const projects = [
     keywords: [
       "Dining",
       "GPS",
+      "Automation",
       "Swift",
       "iOS"
     ],
