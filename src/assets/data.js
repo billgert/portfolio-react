@@ -232,79 +232,79 @@ export const projects = [
       }
     ],
     pictures: null
-  },
-  {
-    active: false,
-    role: "iOS Developer",
-    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
-    cover: require('./projects/rebtel/cover.jpg'),
-    product: {
-      name: "Activist",
-      description: "",
-      logo: require('./projects/rebtel/logo.png')
-    },
-    links: [
-      {
-        name: "Rebtel",
-        url: "https://www.rebtel.com/"
-      },
-      {
-        name: "BBH Stockholm",
-        url: "https://www.bbhstockholm.se/"
-      }
-    ],
-    keywords: [
-      "Employment",
-      "Tele",
-      "Objective-C",
-      "iOS"
-    ],
-    team: [
-      {
-        name: "Anders Frank",
-        role: "iOS Lead"
-      }
-    ],
-    pictures: null
-  },
-  {
-    active: false,
-    role: "iOS Developer",
-    description: "Each person is one song and together they become a playlist. OneSong aimed to be the daily soundtrack of you and your social network. Think of it like Spotify and Instagram having a baby.",
-    cover: require('./projects/onesong/cover.jpg'),
-    product: {
-      name: "OneSong",
-      description: "",
-      logo: require('./projects/onesong/logo.png')
-    },
-    links: [
-      {
-        name: "Frontcell",
-        url: "http://www.frontcell.se/"
-      },
-      {
-        name: "HYPEBEAST",
-        url: "https://hypebeast.com/2015/6/onesong-music-sharing-app-combines-best-of-instagram-and-spotify"
-      }
-    ],
-    keywords: [
-      "Music",
-      "Share",
-      "Objective-C",
-      "iOS"
-    ],
-    team: [
-      {
-        name: "Oscar Kockum",
-        role: "iOS Lead"
-      }
-    ],
-    pictures: null
   }
+  // {
+  //   active: false,
+  //   role: "iOS Developer",
+  //   description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
+  //   cover: require('./projects/rebtel/cover.jpg'),
+  //   product: {
+  //     name: "Activist",
+  //     description: "",
+  //     logo: require('./projects/rebtel/logo.png')
+  //   },
+  //   links: [
+  //     {
+  //       name: "Rebtel",
+  //       url: "https://www.rebtel.com/"
+  //     },
+  //     {
+  //       name: "BBH Stockholm",
+  //       url: "https://www.bbhstockholm.se/"
+  //     }
+  //   ],
+  //   keywords: [
+  //     "Employment",
+  //     "Tele",
+  //     "Objective-C",
+  //     "iOS"
+  //   ],
+  //   team: [
+  //     {
+  //       name: "Anders Frank",
+  //       role: "iOS Lead"
+  //     }
+  //   ],
+  //   pictures: null
+  // },
+  // {
+  //   active: false,
+  //   role: "iOS Developer",
+  //   description: "Each person is one song and together they become a playlist. OneSong aimed to be the daily soundtrack of you and your social network. Think of it like Spotify and Instagram having a baby.",
+  //   cover: require('./projects/onesong/cover.jpg'),
+  //   product: {
+  //     name: "OneSong",
+  //     description: "",
+  //     logo: require('./projects/onesong/logo.png')
+  //   },
+  //   links: [
+  //     {
+  //       name: "Frontcell",
+  //       url: "http://www.frontcell.se/"
+  //     },
+  //     {
+  //       name: "HYPEBEAST",
+  //       url: "https://hypebeast.com/2015/6/onesong-music-sharing-app-combines-best-of-instagram-and-spotify"
+  //     }
+  //   ],
+  //   keywords: [
+  //     "Music",
+  //     "Share",
+  //     "Objective-C",
+  //     "iOS"
+  //   ],
+  //   team: [
+  //     {
+  //       name: "Oscar Kockum",
+  //       role: "iOS Lead"
+  //     }
+  //   ],
+  //   pictures: null
+  // }
 ]
 
 export const profile = {
-  description_div: <div>Dedicated mobile developer based in Stockholm. Focusing on iOS since 2012 with some experience in watchOS, Android, Unity 3D and React. This is a selection of my previous work. {<a href="https://www.bruce.app">IM WITH BRUCE</a>}</div>,
+  description_div: <div>Dedicated mobile developer based in Stockholm. Focusing on iOS since 2012 with some experience in watchOS, Android, Unity 3D and React. This is a selection of projects I've been involved in. {<a href="https://www.bruce.app">IM WITH BRUCE</a>}</div>,
   links: [
     {
       "url": "https://stackoverflow.com/users/1970148/billgert",
