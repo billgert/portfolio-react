@@ -12,7 +12,7 @@
     "react-ga": "^2.5.3",
     "react-hover-observer": "^2.1.1",
     "react-scripts": "1.1.4",
-    "url-parse": "^1.4.3",
+    "url-parse": "^1.5.8",
     "webfontloader": "^1.6.28"
   },
   "scripts": {
