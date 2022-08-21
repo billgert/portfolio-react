@@ -49,7 +49,7 @@ function Keywords(props) {
   return <div className="keywords">
     {props.keywords.map((keyword, index) =>
       <text key={keyword}>
-        {keyword + (index != props.keywords.length - 1 ? " | " : "") }
+        {keyword + (index !== props.keywords.length - 1 ? " | " : "") }
       </text>
     )}
   </div>
