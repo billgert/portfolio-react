@@ -6,7 +6,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div className="contactContent">
-        <button className="emailButton" onClick={this.handleClick}>Say hi!</button>
+        <button className="emailButton" onClick={this.handleClick}>Contact</button>
       </div>
     )
   }

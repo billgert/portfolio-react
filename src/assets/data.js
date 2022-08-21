@@ -4,10 +4,45 @@ export const projects = [
   {
     active: false,
     role: "iOS Lead",
+    description: "Engineering, SCRUM, Project Leadership & UI/UX Design",
+    cover: require('./projects/bruce/cover.jpg'),
+    product: {
+      name: "BRUCE",
+      company: "BRUCE",
+      description: "",
+      logo: require('./projects/bruce/logo.png')
+    },
+    links: [
+      {
+        name: "Bruce",
+        url: "https://www.bruce.app/"
+      }
+    ],
+    keywords: [
+      "Health",
+      "Swift",
+      "iOS"
+    ],
+    team: [
+      {
+        name: "Henric Malmberg",
+        role: "Lead Android Developer"
+      },
+      {
+        name: "David Bruér",
+        role: "User Experience Lead"
+      }
+    ],
+    pictures: null
+  },
+  {
+    active: false,
+    role: "iOS Lead",
     description: "The world's first AI enabled Calculus tutor. Huge project spanning across three different timezones (New York, Denver and Stockholm). With over 40 people involved, I was part of the product team and lead the development of the iOS application from start to beta.",
     cover: require('./projects/aida/cover.jpg'),
     product: {
       name: "Aida",
+      company: "Pearson",
       description: "",
       logo: require('./projects/aida/logo.png')
     },
@@ -59,6 +94,7 @@ export const projects = [
     cover: require('./projects/hint/cover.jpg'),
     product: {
       name: "Hint",
+      company: "Hint",
       description: "",
       logo: require('./projects/hint/logo.png')
     },
@@ -85,6 +121,7 @@ export const projects = [
     cover: require('./projects/bokus/cover.jpg'),
     product: {
       name: "Bokus Play",
+      company: "Bokus",
       description: "",
       logo: require('./projects/bokus/logo.png')
     },
@@ -127,6 +164,7 @@ export const projects = [
     cover: require('./projects/maitres/cover.jpg'),
     product: {
       name: "MAÎTRES",
+      company: "MAÎTRES",
       description: "",
       logo: require('./projects/maitres/logo.png')
     },
@@ -162,6 +200,7 @@ export const projects = [
     cover: require('./projects/tui/cover.jpg'),
     product: {
       name: "Bamseklubben",
+      company: "TUI",
       description: "",
       logo: require('./projects/tui/logo.png')
     },
@@ -206,6 +245,7 @@ export const projects = [
     cover: require('./projects/dashl/cover.jpg'),
     product: {
       name: "Dashl",
+      company: "Dashl",
       description: "",
       logo: require('./projects/dashl/logo.png')
     },
@@ -235,11 +275,13 @@ export const projects = [
   },
   {
     active: false,
+    title: "Rebtel",
     role: "iOS Developer",
     description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
     cover: require('./projects/rebtel/cover.jpg'),
     product: {
       name: "Activist",
+      company: "Rebtel",
       description: "",
       logo: require('./projects/rebtel/logo.png')
     },
@@ -274,17 +316,18 @@ export const projects = [
     cover: require('./projects/onesong/cover.jpg'),
     product: {
       name: "OneSong",
+      company: "OneSong",
       description: "",
       logo: require('./projects/onesong/logo.png')
     },
     links: [
       {
-        name: "Frontcell",
-        url: "http://www.frontcell.se/"
-      },
-      {
         name: "HYPEBEAST",
         url: "https://hypebeast.com/2015/6/onesong-music-sharing-app-combines-best-of-instagram-and-spotify"
+      },
+      {
+        name: "Frontcell",
+        url: "http://www.frontcell.se/"
       }
     ],
     keywords: [
@@ -304,7 +347,7 @@ export const projects = [
 ]
 
 export const profile = {
-  description_div: <div>Dedicated mobile developer based in Stockholm. Focusing on iOS since 2012 with some experience in watchOS, Android, Unity 3D and React. This is a selection of projects I've been involved in. {<a href="https://www.bruce.app">IM WITH BRUCE</a>}</div>,
+  description_div: <div>iOS Developer based in Stockholm. Since 2012 my main focus has been developing and designing cutting edge applications for the App Store. This is a selection of some of the clients I've been working with.</div>,
   links: [
     {
       "url": "https://stackoverflow.com/users/1970148/billgert",

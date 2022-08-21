@@ -10,25 +10,13 @@
 
 .aboutDescription {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #FFFFFF;
   text-align: center;
   padding-bottom: 35px;
 }
 
-@media (min-width: 751px) {
-  .aboutContent {
-    padding-top: 7.0vw;
-    padding-bottom: 7.0vw;
-  }
-  .aboutDescription {
-    width: 50%;
-    font-size: 1.4vw;
-    line-height: 2.5vw;
-  }
-}
-
-@media (max-width: 750px) {
+@media (max-width: 1280px) {
   .aboutContent {
     padding-top: 13.0vw;
     padding-bottom: 13.0vw;
@@ -37,5 +25,17 @@
     width: 65%;
     font-size: 4.4vw;
     line-height: 7.9vw;
+  }
+}
+
+@media (min-width: 1281px) {
+  .aboutContent {
+    padding-top: 7.0vw;
+    padding-bottom: 7.0vw;
+  }
+  .aboutDescription {
+    width: 50%;
+    font-size: 1.4vw;
+    line-height: 2.5vw;
   }
 }

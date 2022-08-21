@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin: auto;
-  background-color: rgba(0,0,0,0.35);
+  background-color: rgba(0,0,0,0.55);
   transition: background-color 0.25s;
   width: 100%;
 }
@@ -22,7 +22,6 @@
   color: #FFFFFF;
   text-shadow: 0 2px 4px rgba(0,0,0,0.25);
   text-align: center;
-  padding-top: 10px;
   padding-bottom: 13px;
   padding-left: 15px;
   padding-right: 15px;
@@ -58,34 +57,7 @@
   color: whitesmoke;
 }
 
-@media (min-width: 751px) {
-  .elementContent {
-    padding-top: 7.0vw;
-    padding-bottom: 7.0vw;
-  }
-  .logo img {
-    height: 2.9vw;
-  }
-  .title {
-    font-size: 2.1vw;
-  }
-  .keywords {
-    width: 30%;
-    font-size: 1.3vw;
-    line-height: 2.1vw;
-  }
-  .companyButton {
-    border-radius: 1.1vw;
-    padding-left: 1.1vw;
-    padding-right: 1.1vw;
-    height: 2.3vw;
-    font-size: 0.8vw;
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
-  }
-}
-
-@media (max-width: 750px) {
+@media (max-width: 1280px) {
   .elementContent {
     padding-top: 13.0vw;
     padding-bottom: 13.0vw;
@@ -94,7 +66,8 @@
     height: 9.2vw;
   }
   .title {
-    font-size: 7.2vw;
+    font-size: 6.0vw;
+    padding-top: 8px;
   }
   .keywords {
     width: 75%;
@@ -109,5 +82,33 @@
     font-size: 2.4vw;
     margin-left: 1.4vw;
     margin-right: 1.4vw;
+  }
+}
+
+@media (min-width: 1281px) {
+  .elementContent {
+    padding-top: 7.0vw;
+    padding-bottom: 7.0vw;
+  }
+  .logo img {
+    height: 2.0vw;
+  }
+  .title {
+    font-size: 1.3vw;
+    padding-top: 7.5px;
+  }
+  .keywords {
+    width: 30%;
+    font-size: 1.3vw;
+    line-height: 2.1vw;
+  }
+  .companyButton {
+    border-radius: 1.1vw;
+    padding-left: 1.1vw;
+    padding-right: 1.1vw;
+    height: 2.3vw;
+    font-size: 0.8vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
   }
 }

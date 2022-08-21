@@ -7,20 +7,16 @@ export default class Element extends React.Component {
     const project = this.props.project
     return (
       <div style={BackgroundStyle(project.cover)}>
-        <div className="elementContent">
+        <div className="elementContent" onClick={() => this.props.onClickLink(project.links[0])}>
           <Logo url={project.product.logo}/>
-          <Title text={project.product.name}/>
-          <Keywords keywords={project.keywords}/>
-          <div className="links">
-            {
-              project.links.map((link, index) =>
-                <button key={link} className="companyButton" onClick={() => this.props.onClickLink(link)}>{link.name}</button>
-              )
-            }
-          </div>
+          <Title text={project.product.company}/>
         </div>
       </div>
     )
+  }
+
+  handleClick = (url) => {
+    this.props.onClickLink(url)
   }
 }
 
