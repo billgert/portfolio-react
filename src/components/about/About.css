@@ -18,24 +18,24 @@
 
 @media (max-width: 1280px) {
   .aboutContent {
-    padding-top: 13.0vw;
-    padding-bottom: 13.0vw;
+    padding-top: 12.0vw;
+    padding-bottom: 12.0vw;
   }
   .aboutDescription {
     width: 65%;
     font-size: 4.4vw;
-    line-height: 7.9vw;
+    line-height: 7.5vw;
   }
 }
 
 @media (min-width: 1281px) {
   .aboutContent {
-    padding-top: 7.0vw;
-    padding-bottom: 7.0vw;
+    padding-top: 6.0vw;
+    padding-bottom: 6.0vw;
   }
   .aboutDescription {
     width: 50%;
-    font-size: 1.4vw;
-    line-height: 2.5vw;
+    font-size: 1.3vw;
+    line-height: 2.3vw;
   }
 }
