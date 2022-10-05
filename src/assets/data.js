@@ -89,33 +89,6 @@ export const projects = [
   },
   {
     active: false,
-    role: "iOS Lead",
-    description: "A new service called Hint that enables groundbreaking behavioural prediction AI. It foresees spending and plans a unique budget for each of everyone's financial behaviour in seconds. I made the Alpha and Beta app.",
-    cover: require('./projects/hint/cover.jpg'),
-    product: {
-      name: "Hint",
-      company: "Hint",
-      description: "",
-      logo: require('./projects/hint/logo.png')
-    },
-    links: [
-      {
-        name: "GetHint",
-        url: "https://www.gethint.se/"
-      }
-    ],
-    keywords: [
-      "Economy",
-      "AI",
-      "Swift",
-      "iOS",
-      "watchOS"
-    ],
-    team: null,
-    pictures: null
-  },
-  {
-    active: false,
     role: "iOS Developer",
     description: "Bokus has entered the booming industry of audiobooks with a brand new app. Mainly responsible for implementing the design and user experience in the first version.",
     cover: require('./projects/bokus/cover.jpg'),
@@ -159,36 +132,36 @@ export const projects = [
   },
   {
     active: false,
-    role: "iOS Lead",
-    description: "As I have experience working in the restaurant-business this project was extra fun. MAÎTRES lets you connect with restaurants to book, pay and rate without having to wait for the bill.",
-    cover: require('./projects/maitres/cover.jpg'),
+    title: "Rebtel",
+    role: "iOS Developer",
+    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
+    cover: require('./projects/rebtel/cover.jpg'),
     product: {
-      name: "MAÎTRES",
-      company: "MAÎTRES",
+      name: "Activist",
+      company: "Rebtel",
       description: "",
-      logo: require('./projects/maitres/logo.png')
+      logo: require('./projects/rebtel/logo.png')
     },
     links: [
       {
-        name: "Maîtres",
-        url: "https://www.maitres.com/",
+        name: "Rebtel",
+        url: "https://www.rebtel.com/"
       },
       {
         name: "BBH Stockholm",
-        url: "https://www.bbhstockholm.se/work/maitres",
+        url: "https://www.bbhstockholm.se/"
       }
     ],
     keywords: [
-      "Dining",
-      "GPS",
-      "Automation",
-      "Swift",
+      "Employment",
+      "Tele",
+      "Objective-C",
       "iOS"
     ],
     team: [
       {
-        name: "Vasyl Fedasyuk",
-        role: "iOS Developer"
+        name: "Anders Frank",
+        role: "iOS Lead"
       }
     ],
     pictures: null
@@ -275,38 +248,65 @@ export const projects = [
   },
   {
     active: false,
-    title: "Rebtel",
-    role: "iOS Developer",
-    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
-    cover: require('./projects/rebtel/cover.jpg'),
+    role: "iOS Lead",
+    description: "As I have experience working in the restaurant-business this project was extra fun. MAÎTRES lets you connect with restaurants to book, pay and rate without having to wait for the bill.",
+    cover: require('./projects/maitres/cover.jpg'),
     product: {
-      name: "Activist",
-      company: "Rebtel",
+      name: "MAÎTRES",
+      company: "MAÎTRES",
       description: "",
-      logo: require('./projects/rebtel/logo.png')
+      logo: require('./projects/maitres/logo.png')
     },
     links: [
       {
-        name: "Rebtel",
-        url: "https://www.rebtel.com/"
+        name: "Maîtres",
+        url: "https://www.maitres.com/",
       },
       {
         name: "BBH Stockholm",
-        url: "https://www.bbhstockholm.se/"
+        url: "https://www.bbhstockholm.se/work/maitres",
       }
     ],
     keywords: [
-      "Employment",
-      "Tele",
-      "Objective-C",
+      "Dining",
+      "GPS",
+      "Automation",
+      "Swift",
       "iOS"
     ],
     team: [
       {
-        name: "Anders Frank",
-        role: "iOS Lead"
+        name: "Vasyl Fedasyuk",
+        role: "iOS Developer"
       }
     ],
+    pictures: null
+  },
+  {
+    active: false,
+    role: "iOS Lead",
+    description: "A new service called Hint that enables groundbreaking behavioural prediction AI. It foresees spending and plans a unique budget for each of everyone's financial behaviour in seconds. I made the Alpha and Beta app.",
+    cover: require('./projects/hint/cover.jpg'),
+    product: {
+      name: "Hint",
+      company: "Hint",
+      description: "",
+      logo: require('./projects/hint/logo.png')
+    },
+    links: [
+      {
+        name: "GetHint",
+        url: "https://www.gethint.se/"
+      }
+    ],
+    keywords: [
+      "Economy",
+      "AI",
+      "Swift",
+      "iOS",
+      "watchOS"
+    ],
+    team: null,
     pictures: null
   },
   {
