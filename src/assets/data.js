@@ -236,7 +236,6 @@ export const projects = [
       "iOS",
       "watchOS"
     ],
-    team: null,
     pictures: null
   },
   {
