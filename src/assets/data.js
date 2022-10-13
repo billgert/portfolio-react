@@ -23,16 +23,6 @@ export const projects = [
       "Swift",
       "iOS"
     ],
-    team: [
-      {
-        name: "Henric Malmberg",
-        role: "Lead Android Developer"
-      },
-      {
-        name: "David Bruér",
-        role: "User Experience Lead"
-      }
-    ],
     pictures: null
   },
   {
@@ -67,24 +57,6 @@ export const projects = [
       "Swift",
       "iOS"
     ],
-    team: [
-      {
-        name: "Joe Fraga",
-        role: "Lead Engineer"
-      },
-      {
-        name: "Mathias Palm",
-        role: "iOS Developer"
-      },
-      {
-        name: "Rikard Lindström",
-        role: "iOS Developer"
-      },
-      {
-        name: "Andrey Zhukov",
-        role: "iOS Developer"
-      }
-    ],
     pictures: null
   },
   {
@@ -118,16 +90,6 @@ export const projects = [
       "Swift",
       "iOS"
     ],
-    team: [
-      {
-        name: "Jonas Johansson",
-        role: "iOS Lead"
-      },
-      {
-        name: "Andrew Sherba",
-        role: "iOS Developer"
-      }
-    ],
     pictures: null
   },
   {
@@ -157,12 +119,6 @@ export const projects = [
       "Tele",
       "Objective-C",
       "iOS"
-    ],
-    team: [
-      {
-        name: "Anders Frank",
-        role: "iOS Lead"
-      }
     ],
     pictures: null
   },
@@ -195,20 +151,6 @@ export const projects = [
       "iOS",
       "Android"
     ],
-    team: [
-      {
-        name: "David Jangdal",
-        role: "Mobile Lead"
-      },
-      {
-        name: "Daniel Lundqvist",
-        role: "Mobile Developer"
-      },
-      {
-        name: "Rickard Petersen",
-        role: "Mobile Developer"
-      }
-    ],
     pictures: null
   },
   {
@@ -237,12 +179,6 @@ export const projects = [
       "Prototype",
       "Swift",
       "iOS"
-    ],
-    team: [
-      {
-        name: "Adam Lindfors",
-        role: "Designer"
-      }
     ],
     pictures: null
   },
@@ -273,12 +209,6 @@ export const projects = [
       "Automation",
       "Swift",
       "iOS"
-    ],
-    team: [
-      {
-        name: "Vasyl Fedasyuk",
-        role: "iOS Developer"
-      }
     ],
     pictures: null
   },
@@ -335,12 +265,6 @@ export const projects = [
       "Share",
       "Objective-C",
       "iOS"
-    ],
-    team: [
-      {
-        name: "Oscar Kockum",
-        role: "iOS Lead"
-      }
     ],
     pictures: null
   }
