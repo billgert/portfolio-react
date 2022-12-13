@@ -270,11 +270,11 @@ export const projects = [
 ]
 
 export const profile = {
-  description_div: <div>iOS Developer based in Stockholm. Since 2012 I've been developing and designing applications for the App Store. This is a selection of my work.</div>,
+  description_div: <div>iOS Developer based in Stockholm. Since 2012 I've been developing and designing applications for the App Store. Above is a selection of my work. You can find my resume, GitHub and LinkedIn below.</div>,
   links: [
     {
-      "url": "https://stackoverflow.com/users/1970148/billgert",
-      "logo": require('./links/stackoverflow.png')
+      "url": "https://drive.google.com/file/d/1-54KgJneEFKFfSsc51HD9ZTV-qA49qd1/view?usp=share_link",
+      "logo": require('./links/pdf_file.png')
     },
     {
       "url": "https://github.com/billgert",
