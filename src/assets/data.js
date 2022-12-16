@@ -273,7 +273,7 @@ export const profile = {
   description_div: <div>iOS Developer based in Stockholm. Since 2012 I've been developing and designing applications for the App Store. Above is a selection of my work. You can find my resume, GitHub and LinkedIn below.</div>,
   links: [
     {
-      "url": "https://drive.google.com/file/d/1V013TfkqQHK5MLXsmdLSwdYdWqfQMAn6/view?usp=share_link",
+      "url": "https://drive.google.com/file/d/1UielUDGr-TVwXgcLcScEJSKuaI-zjD-h/view?usp=share_link",
       "logo": require('./links/pdf_file.png')
     },
     {
