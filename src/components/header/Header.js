@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactGA from 'react-ga'
 import './Header.css'
 import companyLogo from '../../assets/company_logo.png'
 
