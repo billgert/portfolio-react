@@ -39,7 +39,7 @@ export const projects = [
     links: [
       {
         name: "Aida",
-        url: "https://www.pearson.com/en-us/learner/products-and-services/learning-apps-development/aida.html"
+        url: "https://www.pearson.com/"
       },
       {
         name: "Pearson",
@@ -136,7 +136,7 @@ export const projects = [
     links: [
       {
         name: "TUI",
-        url: "https://www.tui.se/bamse/"
+        url: "https://www.tui.se/"
       },
       {
         name: "BBH Stockholm",
@@ -270,10 +270,10 @@ export const projects = [
 ]
 
 export const profile = {
-  description_div: <div>iOS Developer based in Stockholm. Since 2012 I've been developing and designing applications for the App Store. Above is a selection of my work. You can find my resume, GitHub and LinkedIn below.</div>,
+  description_div: <div>Freelance iOS Developer based in Stockholm. Since 2012 I've been developing and designing applications for the App Store. Above is a selection of some of the companies I've worked with. Find my resume, GitHub and LinkedIn below.</div>,
   links: [
     {
-      "url": "https://drive.google.com/file/d/1IWMgd3zJtaPpI6QWRT1XBSB-T72GoHyL/view?usp=share_link",
+      "url": "https://drive.google.com/file/d/1lIuSHeEd3P1Ziv3o_0wPa_-E3k0jb4jE/view?usp=share_link",
       "logo": require('./links/pdf_file.png')
     },
     {
@@ -287,4 +287,4 @@ export const profile = {
   ]
 }
 
-export const email = "p.billgert@gmail.com"
+export const email = "patrik@kodakoda.com"

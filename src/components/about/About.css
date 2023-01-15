@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin: auto;
-  background: #2C2C2C;
+  background: #0d0d0d;
   background-image: url('../../assets/patterns/about.png');
   background-repeat: repeat;
 }
@@ -35,7 +35,7 @@
   }
   .aboutDescription {
     width: 50%;
-    font-size: 1.3vw;
+    font-size: 1.27vw;
     line-height: 2.3vw;
   }
 }
