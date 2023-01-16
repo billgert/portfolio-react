@@ -9,7 +9,7 @@
 }
 
 .emailButton {
-  background: #2B2B2B;
+  background: #0d0d0d;
   border-style: hidden;
   color: white;
   font-family: 'Montserrat', sans-serif;
@@ -19,9 +19,7 @@
 }
 
 .emailButton:hover {
-  background: #ececec;
-  color: #2B2B2B;
-  font-weight: 800;
+  color: #999999;
 }
 
 .emailButton:focus {
@@ -35,9 +33,9 @@
   }
   .emailButton {
     border-radius: 8.0vw;
-    padding-left: 16.0vw;
-    padding-right: 16.0vw;
-    height: 16.0vw;
+    padding-left: 12.0vw;
+    padding-right: 12.0vw;
+    height: 15.0vw;
     font-size: 4.5vw;
   }
 }
@@ -49,9 +47,9 @@
   }
   .emailButton {
     border-radius: 2.5vw;
-    padding-left: 5.0vw;
-    padding-right: 5.0vw;
-    height: 5.0vw;
+    padding-left: 4.0vw;
+    padding-right: 4.0vw;
+    height: 4.5vw;
     font-size: 1.3vw;
   }
 }
