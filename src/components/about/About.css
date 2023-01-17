@@ -4,8 +4,6 @@
   align-items: center;
   margin: auto;
   background: #0d0d0d;
-  background-image: url('../../assets/patterns/about.png');
-  background-repeat: repeat;
 }
 
 .aboutDescription {

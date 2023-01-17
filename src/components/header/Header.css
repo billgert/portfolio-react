@@ -4,11 +4,8 @@
     align-items: center;
     margin: auto;
     background: #0d0d0d;
-    background-image: url('../../assets/patterns/about.png');
-    background-repeat: repeat;
     position: sticky;
     top: 0;
-    border-bottom: 1px solid #1c1c1c;
 }
 
 @media (max-width: 1280px) {
