@@ -275,17 +275,20 @@ export const profile = {
     {
       "url": null,
       "logo": require('./links/pdf_file.png'),
-      "file": './links/Patrik_Billgert_Resume.pdf'
+      "filePath": require('./links/Patrik_Billgert_Resume.pdf'),
+      "fileName": "Patrik_Billgert_Resume.pdf"
     },
     {
       "url": "https://github.com/billgert",
       "logo": require('./links/github.png'),
-      "file": null
+      "filePath": null,
+      "fileName": null
     },
     {
       "url": "https://se.linkedin.com/in/billgert",
       "logo": require('./links/linkedin.png'),
-      "file": null
+      "filePath": null,
+      "fileName": null
     }
   ]
 }
