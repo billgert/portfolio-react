@@ -48,6 +48,7 @@ function Description(props) {
   </div>
 }
 
+/*
 function Keywords(props) {
   return <div className="keywords">
     {props.keywords.map((keyword, index) =>
@@ -57,3 +58,4 @@ function Keywords(props) {
     )}
   </div>
 }
+  */
