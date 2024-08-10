@@ -28,12 +28,12 @@
 
 @media (min-width: 1281px) {
   .aboutContent {
-    padding-top: 6.0vw;
-    padding-bottom: 6.0vw;
+    padding-top: 4.0vw;
+    padding-bottom: 4.0vw;
   }
   .aboutDescription {
     width: 50%;
-    font-size: 1.27vw;
-    line-height: 2.3vw;
+    font-size: 1.1vw;
+    line-height: 2vw;
   }
 }

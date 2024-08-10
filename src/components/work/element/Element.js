@@ -10,6 +10,7 @@ export default class Element extends React.Component {
         <div className="elementContent" onClick={() => this.props.onClickLink(project.links[0])}>
           <Logo url={project.product.logo}/>
           <Title text={project.product.company}/>
+          <Keywords keywords={project.keywords}/>
         </div>
       </div>
     )
@@ -41,12 +42,12 @@ function Title(props) {
   </div>
 }
 
-// function Keywords(props) {
-//   return <div className="keywords">
-//     {props.keywords.map((keyword, index) =>
-//       <text key={keyword}>
-//         {keyword + (index !== props.keywords.length - 1 ? " | " : "") }
-//       </text>
-//     )}
-//   </div>
-// }
+function Keywords(props) {
+  return <div className="keywords">
+    {props.keywords.map((keyword, index) =>
+      <text key={keyword}>
+        {keyword + (index !== props.keywords.length - 1 ? " • " : "") }
+      </text>
+    )}
+  </div>
+}

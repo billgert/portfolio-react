@@ -19,9 +19,9 @@ export const projects = [
       }
     ],
     keywords: [
-      "Health",
+      "Fitness",
       "Swift",
-      "iOS"
+      "CoreData"
     ],
     pictures: null
   },
@@ -52,10 +52,8 @@ export const projects = [
     ],
     keywords: [
       "Calculus",
-      "AI",
-      "OCR",
       "Swift",
-      "iOS"
+      "OCR"
     ],
     pictures: null
   },
@@ -86,39 +84,8 @@ export const projects = [
     ],
     keywords: [
       "Books",
-      "Audio",
       "Swift",
-      "iOS"
-    ],
-    pictures: null
-  },
-  {
-    active: false,
-    title: "Rebtel",
-    role: "iOS Developer",
-    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
-    cover: require('./projects/rebtel/cover.jpg'),
-    product: {
-      name: "Activist",
-      company: "Rebtel",
-      description: "",
-      logo: require('./projects/rebtel/logo.png')
-    },
-    links: [
-      {
-        name: "Rebtel",
-        url: "https://www.rebtel.com/"
-      },
-      {
-        name: "BBH Stockholm",
-        url: "https://www.bbhstockholm.se/"
-      }
-    ],
-    keywords: [
-      "Employment",
-      "Tele",
-      "Objective-C",
-      "iOS"
+      "AVFoundation"
     ],
     pictures: null
   },
@@ -145,14 +112,40 @@ export const projects = [
     ],
     keywords: [
       "Kids",
-      "Game",
-      "Unity 3D",
       "C#",
-      "iOS",
-      "Android"
+      "Unity"
     ],
     pictures: null
   },
+  {
+    active: false,
+    title: "Rebtel",
+    role: "iOS Developer",
+    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
+    cover: require('./projects/rebtel/cover.jpg'),
+    product: {
+      name: "Activist",
+      company: "Rebtel",
+      description: "",
+      logo: require('./projects/rebtel/logo.png')
+    },
+    links: [
+      {
+        name: "Rebtel",
+        url: "https://www.rebtel.com/"
+      },
+      {
+        name: "BBH Stockholm",
+        url: "https://www.bbhstockholm.se/"
+      }
+    ],
+    keywords: [
+      "Sales",
+      "Objective-C"
+    ],
+    pictures: null
+  },
+  /*
   {
     active: false,
     role: "iOS Lead",
@@ -181,7 +174,7 @@ export const projects = [
       "iOS"
     ],
     pictures: null
-  },
+  },*/
   {
     active: false,
     role: "iOS Lead",
@@ -204,66 +197,9 @@ export const projects = [
       }
     ],
     keywords: [
-      "Dining",
-      "GPS",
-      "Automation",
+      "Restaurants",
       "Swift",
-      "iOS"
-    ],
-    pictures: null
-  },
-  {
-    active: false,
-    role: "iOS Lead",
-    description: "A new service called Hint that enables groundbreaking behavioural prediction AI. It foresees spending and plans a unique budget for each of everyone's financial behaviour in seconds. I made the Alpha and Beta app.",
-    cover: require('./projects/hint/cover.jpg'),
-    product: {
-      name: "Hint",
-      company: "Hint",
-      description: "",
-      logo: require('./projects/hint/logo.png')
-    },
-    links: [
-      {
-        name: "GetHint",
-        url: "https://www.gethint.se/"
-      }
-    ],
-    keywords: [
-      "Economy",
-      "AI",
-      "Swift",
-      "iOS",
-      "watchOS"
-    ],
-    pictures: null
-  },
-  {
-    active: false,
-    role: "iOS Developer",
-    description: "Each person is one song and together they become a playlist. OneSong aimed to be the daily soundtrack of you and your social network. Think of it like Spotify and Instagram having a baby.",
-    cover: require('./projects/onesong/cover.jpg'),
-    product: {
-      name: "OneSong",
-      company: "OneSong",
-      description: "",
-      logo: require('./projects/onesong/logo.png')
-    },
-    links: [
-      {
-        name: "HYPEBEAST",
-        url: "https://hypebeast.com/2015/6/onesong-music-sharing-app-combines-best-of-instagram-and-spotify"
-      },
-      {
-        name: "Frontcell",
-        url: "http://www.frontcell.se/"
-      }
-    ],
-    keywords: [
-      "Music",
-      "Share",
-      "Objective-C",
-      "iOS"
+      "RxSwift"
     ],
     pictures: null
   }

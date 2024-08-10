@@ -42,14 +42,14 @@
 
 @media (min-width: 1281px) {
   .contactContent {
-    padding-top: 6.0vw;
-    padding-bottom: 6.0vw;
+    padding-top: 4.0vw;
+    padding-bottom: 4.0vw;
   }
   .emailButton {
     border-radius: 2.5vw;
     padding-left: 4.0vw;
     padding-right: 4.0vw;
-    height: 4.5vw;
-    font-size: 1.3vw;
+    height: 4vw;
+    font-size: 1vw;
   }
 }
