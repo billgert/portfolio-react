@@ -59,6 +59,34 @@ export const projects = [
   },
   {
     active: false,
+    title: "Rebtel",
+    role: "iOS Developer",
+    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
+    cover: require('./projects/rebtel/cover.jpg'),
+    product: {
+      name: "Activist",
+      company: "Rebtel",
+      description: "",
+      logo: require('./projects/rebtel/logo.png')
+    },
+    links: [
+      {
+        name: "Rebtel",
+        url: "https://www.rebtel.com/"
+      },
+      {
+        name: "BBH Stockholm",
+        url: "https://www.bbhstockholm.se/"
+      }
+    ],
+    keywords: [
+      "Sales",
+      "Objective-C"
+    ],
+    pictures: null
+  },
+  {
+    active: false,
     role: "iOS Developer",
     description: "Bokus has entered the booming industry of audiobooks with a brand new app. Mainly responsible for implementing the design and user experience in the first version.",
     cover: require('./projects/bokus/cover.jpg'),
@@ -114,34 +142,6 @@ export const projects = [
       "Kids",
       "C#",
       "Unity"
-    ],
-    pictures: null
-  },
-  {
-    active: false,
-    title: "Rebtel",
-    role: "iOS Developer",
-    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
-    cover: require('./projects/rebtel/cover.jpg'),
-    product: {
-      name: "Activist",
-      company: "Rebtel",
-      description: "",
-      logo: require('./projects/rebtel/logo.png')
-    },
-    links: [
-      {
-        name: "Rebtel",
-        url: "https://www.rebtel.com/"
-      },
-      {
-        name: "BBH Stockholm",
-        url: "https://www.bbhstockholm.se/"
-      }
-    ],
-    keywords: [
-      "Sales",
-      "Objective-C"
     ],
     pictures: null
   },
