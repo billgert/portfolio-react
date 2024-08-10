@@ -5,6 +5,7 @@ export const projects = [
     active: false,
     role: "iOS Lead",
     description: "Engineering, SCRUM, Project Leadership & UI/UX Design",
+    shortDescription: "#1 fitness app in the Nordics",
     cover: require('./projects/bruce/cover.jpg'),
     product: {
       name: "BRUCE",
@@ -29,6 +30,7 @@ export const projects = [
     active: false,
     role: "iOS Lead",
     description: "The world's first AI enabled Calculus tutor. Huge project spanning across three different timezones (New York, Denver and Stockholm). With over 40 people involved, I was part of the product team and lead the development of the iOS application from start to beta.",
+    shortDescription: "Calculus tutor powered by AI",
     cover: require('./projects/aida/cover.jpg'),
     product: {
       name: "Aida",
@@ -62,6 +64,7 @@ export const projects = [
     title: "Rebtel",
     role: "iOS Developer",
     description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
+    shortDescription: "Sign up to be an activist",
     cover: require('./projects/rebtel/cover.jpg'),
     product: {
       name: "Activist",
@@ -89,6 +92,7 @@ export const projects = [
     active: false,
     role: "iOS Developer",
     description: "Bokus has entered the booming industry of audiobooks with a brand new app. Mainly responsible for implementing the design and user experience in the first version.",
+    shortDescription: "Listen to (or read) books",
     cover: require('./projects/bokus/cover.jpg'),
     product: {
       name: "Bokus Play",
@@ -121,6 +125,7 @@ export const projects = [
     active: false,
     role: "Mobile Developer",
     description: "Bamseklubben is a game starring the Swedish cartoon character Bamse. Developed cross-platform for the Nordics with over 10.000 kids playing in the first weeks.",
+    shortDescription: "Kids game with Bamse",
     cover: require('./projects/tui/cover.jpg'),
     product: {
       name: "Bamseklubben",
@@ -179,6 +184,7 @@ export const projects = [
     active: false,
     role: "iOS Lead",
     description: "As I have experience working in the restaurant-business this project was extra fun. MAÎTRES lets you connect with restaurants to book, pay and rate without having to wait for the bill.",
+    shortDescription: "Find, book, pay, tip and rate",
     cover: require('./projects/maitres/cover.jpg'),
     product: {
       name: "MAÎTRES",
