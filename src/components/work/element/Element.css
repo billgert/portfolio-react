@@ -27,11 +27,10 @@
   padding-right: 15px;
 }
 
-.keywords {
+.description {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  color: #FFFFFF;
-  opacity: 0.9;
+  color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 2px 4px rgba(0,0,0,0.3);
   text-align: center;
   padding-bottom: 20px;
@@ -69,7 +68,7 @@
     font-size: 6.0vw;
     padding-top: 8px;
   }
-  .keywords {
+  .description {
     width: 75%;
     font-size: 3.5vw;
     line-height: 4.0vw;
@@ -97,7 +96,7 @@
     font-size: 1.3vw;
     padding-top: 7.5px;
   }
-  .keywords {
+  .description {
     width: 30%;
     font-size: 0.68vw;
     line-height: 0.8vw;

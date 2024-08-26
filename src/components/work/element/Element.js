@@ -43,7 +43,7 @@ function Title(props) {
 }
 
 function Description(props) {
-  return <div className="keywords">
+  return <div className="description">
     {props.text}
   </div>
 }
