@@ -6,7 +6,7 @@ export const projects = [
     role: "iOS Developer",
     description: "",
     shortDescription: "Next challenge",
-    cover: require('./projects/appostrophe/cover.jpg'),
+    cover: require('./projects/appostrophe/cover.png'),
     product: {
       name: "SCRL",
       company: "Appostrophe",
