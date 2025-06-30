@@ -2,6 +2,57 @@ import React from 'react'
 
 export const projects = [
   {
+    active: true,
+    role: "iOS Developer",
+    description: "",
+    shortDescription: "Next challenge",
+    cover: require('./projects/appostrophe/cover.jpg'),
+    product: {
+      name: "SCRL",
+      company: "Appostrophe",
+      description: "",
+      logo: require('./projects/appostrophe/logo.png')
+    },
+    links: [
+      {
+        name: "Bokadirekt",
+        url: "https://appostrophe.se/"
+      }
+    ],
+    keywords: [
+      "Instagram",
+      "Swift",
+      "iOS"
+    ],
+    pictures: null
+  },
+  {
+    active: false,
+    role: "iOS Developer",
+    description: "",
+    shortDescription: "Health & beauty marketplace",
+    cover: require('./projects/bokadirekt/cover.jpg'),
+    product: {
+      name: "Bokadirekt",
+      company: "Bokadirekt",
+      description: "",
+      logo: require('./projects/bokadirekt/logo.png')
+    },
+    links: [
+      {
+        name: "Bokadirekt",
+        url: "https://www.bokadirekt.se/"
+      }
+    ],
+    keywords: [
+      "Beauty",
+      "Swift",
+      "iOS",
+      "SwiftUI"
+    ],
+    pictures: null
+  },
+  {
     active: false,
     role: "iOS Lead",
     description: "Engineering, SCRUM, Project Leadership & UI/UX Design",
@@ -61,35 +112,6 @@ export const projects = [
   },
   {
     active: false,
-    title: "Rebtel",
-    role: "iOS Developer",
-    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
-    shortDescription: "Sign up to be an activist",
-    cover: require('./projects/rebtel/cover.jpg'),
-    product: {
-      name: "Activist",
-      company: "Rebtel",
-      description: "",
-      logo: require('./projects/rebtel/logo.png')
-    },
-    links: [
-      {
-        name: "Rebtel",
-        url: "https://www.rebtel.com/"
-      },
-      {
-        name: "BBH Stockholm",
-        url: "https://www.bbhstockholm.se/"
-      }
-    ],
-    keywords: [
-      "Sales",
-      "Objective-C"
-    ],
-    pictures: null
-  },
-  {
-    active: false,
     role: "iOS Developer",
     description: "Bokus has entered the booming industry of audiobooks with a brand new app. Mainly responsible for implementing the design and user experience in the first version.",
     shortDescription: "Listen to (or read) books",
@@ -123,6 +145,35 @@ export const projects = [
   },
   {
     active: false,
+    title: "Rebtel",
+    role: "iOS Developer",
+    description: "The Activist-program was made to create jobs by making loyal customers employees of Rebtel. With an office in their hand the Rebtel Activist can sign up new customers directly in the app.",
+    shortDescription: "Sign up to be an activist",
+    cover: require('./projects/rebtel/cover.jpg'),
+    product: {
+      name: "Activist",
+      company: "Rebtel",
+      description: "",
+      logo: require('./projects/rebtel/logo.png')
+    },
+    links: [
+      {
+        name: "Rebtel",
+        url: "https://www.rebtel.com/"
+      },
+      {
+        name: "BBH Stockholm",
+        url: "https://www.bbhstockholm.se/"
+      }
+    ],
+    keywords: [
+      "Sales",
+      "Objective-C"
+    ],
+    pictures: null
+  },
+  {
+    active: false,
     role: "Mobile Developer",
     description: "Bamseklubben is a game starring the Swedish cartoon character Bamse. Developed cross-platform for the Nordics with over 10.000 kids playing in the first weeks.",
     shortDescription: "Kids game with Bamse",
@@ -150,11 +201,11 @@ export const projects = [
     ],
     pictures: null
   },
-  /*
   {
     active: false,
     role: "iOS Lead",
     description: "I helped define, design and develop a prototype app for Dashl in their early stages. Their network of stylists is now the go-to-place for beauty treatments in Stockholm.",
+    shortDescription: "Book treatments ",
     cover: require('./projects/dashl/cover.jpg'),
     product: {
       name: "Dashl",
@@ -179,7 +230,7 @@ export const projects = [
       "iOS"
     ],
     pictures: null
-  },*/
+  },
   {
     active: false,
     role: "iOS Lead",
