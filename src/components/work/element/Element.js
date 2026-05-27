@@ -8,6 +8,7 @@ export default class Element extends React.Component {
     return (
       <div style={BackgroundStyle(project.cover)}>
         <div className="elementContent" onClick={() => this.props.onClickLink(project.links[0])}>
+          {project.active && <span className="activeBadge">ACTIVE</span>}
           <Logo url={project.product.logo}/>
           <Title text={project.product.company}/>
           <Description text={project.shortDescription}/>

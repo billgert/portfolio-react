@@ -5,18 +5,18 @@ export const projects = [
     active: true,
     role: "iOS Developer",
     description: "",
-    shortDescription: "Next chapter",
-    cover: require('./projects/appostrophe/cover.png'),
+    shortDescription: "Social media design platform",
+    cover: require('./projects/scrl/cover.png'),
     product: {
       name: "SCRL",
-      company: "Appostrophe",
+      company: "SCRL",
       description: "",
-      logo: require('./projects/appostrophe/logo.png')
+      logo: require('./projects/scrl/logo.png')
     },
     links: [
       {
-        name: "Bokadirekt",
-        url: "https://appostrophe.se/"
+        name: "SCRL",
+        url: "https://scrl.com"
       }
     ],
     keywords: [
